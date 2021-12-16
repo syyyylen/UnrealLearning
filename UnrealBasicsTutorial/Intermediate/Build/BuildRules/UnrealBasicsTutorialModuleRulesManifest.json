@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"C:\\Users\\game3\\Documents\\GitHub\\UnrealLearning\\UnrealBasicsTutorial\\Source\\UnrealBasicsTutorial\\UnrealBasicsTutorial.Build.cs",
-		"C:\\Users\\game3\\Documents\\GitHub\\UnrealLearning\\UnrealBasicsTutorial\\Source\\UnrealBasicsTutorial.Target.cs",
-		"C:\\Users\\game3\\Documents\\GitHub\\UnrealLearning\\UnrealBasicsTutorial\\Source\\UnrealBasicsTutorialEditor.Target.cs"
+		"D:\\mais_oui_mais_pingback\\UnrealLearning\\UnrealBasicsTutorial\\Source\\UnrealBasicsTutorial\\UnrealBasicsTutorial.Build.cs",
+		"D:\\mais_oui_mais_pingback\\UnrealLearning\\UnrealBasicsTutorial\\Source\\UnrealBasicsTutorial.Target.cs",
+		"D:\\mais_oui_mais_pingback\\UnrealLearning\\UnrealBasicsTutorial\\Source\\UnrealBasicsTutorialEditor.Target.cs"
 	],
 	"EngineVersion": "4.27.2"
 }

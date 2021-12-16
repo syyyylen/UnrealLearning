@@ -902,3 +902,28 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.12.16-14.32.26:979][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000004 seconds (updated 0 objects)
 [2021.12.16-14.32.26:980][  0]LogContentStreaming: Texture pool size now 1000 MB
 [2021.12.16-14.32.27:983][ 92]LogSlate: Took 0.000161 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.12.16-14.33.20:872][475]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (1M_Cube_Chamfer)
+[2021.12.16-14.33.23:908][825]Cmd: TRANSACTION UNDO
+[2021.12.16-14.33.23:908][825]LogEditorTransaction: Undo Move Actors
+[2021.12.16-14.33.26:648][ 80]Cmd: TRANSACTION UNDO
+[2021.12.16-14.33.26:648][ 80]LogEditorTransaction: Undo Move Actors
+[2021.12.16-14.33.32:162][654]Cmd: DUPLICATE
+[2021.12.16-14.33.32:162][654]Cmd: ACTOR DUPLICATE
+[2021.12.16-14.33.41:837][786]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2021.12.16-14.33.41:850][786]LogSavePackage: Moving '../../../../../../Users/game3/Documents/GitHub/UnrealLearning/UnrealBasicsTutorial/Saved/ThirdPersonExampleMapBEA0F90146E6C402AEAFD1AF0560A052.tmp' to '../../../../../../Users/game3/Documents/GitHub/UnrealLearning/UnrealBasicsTutorial/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2021.12.16-14.33.41:932][786]LogSavePackage: Moving '../../../../../../Users/game3/Documents/GitHub/UnrealLearning/UnrealBasicsTutorial/Saved/ThirdPersonExampleMap_BuiltDataA6F210704967C53F27A76796A4E735F9.tmp' to '../../../../../../Users/game3/Documents/GitHub/UnrealLearning/UnrealBasicsTutorial/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2021.12.16-14.33.41:945][786]AssetCheck: New page: Asset Save: multiple assets
+[2021.12.16-14.33.41:945][786]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2021.12.16-14.33.41:945][786]LogContentValidation: Display: Validating World /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2021.12.16-14.33.43:183][922]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2021.12.16-14.33.43:195][922]LogSavePackage: Moving '../../../../../../Users/game3/Documents/GitHub/UnrealLearning/UnrealBasicsTutorial/Saved/ThirdPersonExampleMap7A425BE549D4EC388B85E192C21D09D0.tmp' to '../../../../../../Users/game3/Documents/GitHub/UnrealLearning/UnrealBasicsTutorial/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2021.12.16-14.33.43:243][922]LogSavePackage: Moving '../../../../../../Users/game3/Documents/GitHub/UnrealLearning/UnrealBasicsTutorial/Saved/ThirdPersonExampleMap_BuiltData3FE612D940DD2527A06B59997C36DB22.tmp' to '../../../../../../Users/game3/Documents/GitHub/UnrealLearning/UnrealBasicsTutorial/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2021.12.16-14.33.43:254][922]AssetCheck: New page: Asset Save: multiple assets
+[2021.12.16-14.33.43:254][922]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2021.12.16-14.33.43:254][922]LogContentValidation: Display: Validating World /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2021.12.16-14.34.41:933][570]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2021.12.16-14.34.41:945][570]LogSavePackage: Moving '../../../../../../Users/game3/Documents/GitHub/UnrealLearning/UnrealBasicsTutorial/Saved/ThirdPersonExampleMapF34FB48B46A4B8C529A67EB4EE9D14FE.tmp' to '../../../../../../Users/game3/Documents/GitHub/UnrealLearning/UnrealBasicsTutorial/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2021.12.16-14.34.41:995][570]LogSavePackage: Moving '../../../../../../Users/game3/Documents/GitHub/UnrealLearning/UnrealBasicsTutorial/Saved/ThirdPersonExampleMap_BuiltData9193C16E4C5266F87577E2A9D0213E18.tmp' to '../../../../../../Users/game3/Documents/GitHub/UnrealLearning/UnrealBasicsTutorial/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2021.12.16-14.34.42:007][570]AssetCheck: New page: Asset Save: multiple assets
+[2021.12.16-14.34.42:007][570]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2021.12.16-14.34.42:007][570]LogContentValidation: Display: Validating World /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap

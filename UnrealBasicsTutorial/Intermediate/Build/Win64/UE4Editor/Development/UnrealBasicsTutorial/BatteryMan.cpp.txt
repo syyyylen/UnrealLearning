@@ -1,5 +1,5 @@
-C:\Users\game3\Documents\Unreal Projects\UnrealBasicsTutorial\Intermediate\Build\Win64\UE4Editor\Development\UnrealBasicsTutorial\Definitions.UnrealBasicsTutorial.h
-C:\Users\game3\Documents\Unreal Projects\UnrealBasicsTutorial\Source\UnrealBasicsTutorial\BatteryMan.h
+C:\Users\game3\Documents\GitHub\UnrealLearning\UnrealBasicsTutorial\Intermediate\Build\Win64\UE4Editor\Development\UnrealBasicsTutorial\Definitions.UnrealBasicsTutorial.h
+C:\Users\game3\Documents\GitHub\UnrealLearning\UnrealBasicsTutorial\Source\UnrealBasicsTutorial\BatteryMan.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/CharacterMovementReplication.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CharacterMovementReplication.generated.h
@@ -129,4 +129,4 @@ C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\In
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\DynamicPropertyPath.generated.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\WidgetBlueprintGeneratedClass.generated.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\UserWidget.generated.h
-C:\Users\game3\Documents\Unreal Projects\UnrealBasicsTutorial\Intermediate\Build\Win64\UE4Editor\Inc\UnrealBasicsTutorial\BatteryMan.generated.h
+C:\Users\game3\Documents\GitHub\UnrealLearning\UnrealBasicsTutorial\Intermediate\Build\Win64\UE4Editor\Inc\UnrealBasicsTutorial\BatteryMan.generated.h

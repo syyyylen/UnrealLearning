@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\game3\\Documents\\Unreal Projects\\UnrealBasicsTutorial\\Source\\UnrealBasicsTutorial\\UnrealBasicsTutorial.Build.cs",
+		"C:\\Users\\game3\\Documents\\Unreal Projects\\UnrealBasicsTutorial\\Source\\UnrealBasicsTutorial.Target.cs",
+		"C:\\Users\\game3\\Documents\\Unreal Projects\\UnrealBasicsTutorial\\Source\\UnrealBasicsTutorialEditor.Target.cs"
+	],
+	"EngineVersion": "4.27.2"
+}

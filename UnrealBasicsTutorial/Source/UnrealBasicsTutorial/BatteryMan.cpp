@@ -1,6 +1,10 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "BatteryMan.h"
+#include "Components/SkeletalMeshComponent.h"
+#include "GameFramework/Actor.h"
+#include "Kismet/GameplayStatics.h"
+
 
 // Sets default values
 ABatteryMan::ABatteryMan()
@@ -60,6 +64,20 @@ void ABatteryMan::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+	Power -= DeltaTime * Power_Treshold;
+
+	if (Power <= 0) {
+		if (!bDead) {
+			bDead = true;
+
+			//effet ragdoll sur le mesh
+			GetMesh()->SetSimulatePhysics(true);
+
+			//lance restart après un cout timer, sorte de coroutine ? 
+			FTimerHandle UnusedHandle;
+			GetWorldTimerManager().SetTimer(UnusedHandle, this, &ABatteryMan::RestartGame, 3.0f, false);
+		}
+	}
 }
 
 // Called to bind functionality to input
@@ -108,7 +126,7 @@ void ABatteryMan::OnBeginOverlap(UPrimitiveComponent * HitComp,
 		UE_LOG(LogTemp, Warning, TEXT("collided with"));
 
 		//On augmente le pouvoir ofc
-		Power += 10.0f;
+		Power += 20.0f;
 		if (Power > 100.0f)
 			Power = 100.0f;
 
@@ -117,3 +135,9 @@ void ABatteryMan::OnBeginOverlap(UPrimitiveComponent * HitComp,
 	}
 }
 
+
+void ABatteryMan::RestartGame()
+{
+	//On récupère le nom de la scène et on la recharge
+	UGameplayStatics::OpenLevel(this, FName(*GetWorld()->GetName()), false);
+}

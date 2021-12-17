@@ -1,2 +1,2 @@
-D:\mais_oui_mais_pingback\UnrealLearning\UnrealBasicsTutorial\Intermediate\Build\Win64\UE4Editor\Development\UnrealBasicsTutorial\Definitions.UnrealBasicsTutorial.h
-D:\mais_oui_mais_pingback\UnrealLearning\UnrealBasicsTutorial\Source\UnrealBasicsTutorial\UnrealBasicsTutorial.h
+C:\Users\game3\Documents\GitHub\UnrealLearning\UnrealBasicsTutorial\Intermediate\Build\Win64\UE4Editor\Development\UnrealBasicsTutorial\Definitions.UnrealBasicsTutorial.h
+C:\Users\game3\Documents\GitHub\UnrealLearning\UnrealBasicsTutorial\Source\UnrealBasicsTutorial\UnrealBasicsTutorial.h

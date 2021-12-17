@@ -198,7 +198,7 @@ void EmptyLinkFunctionForGeneratedCodeBatteryMan() {}
 		{ "ModuleRelativePath", "BatteryMan.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ABatteryMan_Statics::NewProp_Power = { "Power", nullptr, (EPropertyFlags)0x0010000000020015, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABatteryMan, Power), METADATA_PARAMS(Z_Construct_UClass_ABatteryMan_Statics::NewProp_Power_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABatteryMan_Statics::NewProp_Power_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ABatteryMan_Statics::NewProp_Power = { "Power", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABatteryMan, Power), METADATA_PARAMS(Z_Construct_UClass_ABatteryMan_Statics::NewProp_Power_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABatteryMan_Statics::NewProp_Power_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABatteryMan_Statics::NewProp_Power_Treshold_MetaData[] = {
 		{ "Category", "BatteryMan" },
@@ -247,7 +247,7 @@ void EmptyLinkFunctionForGeneratedCodeBatteryMan() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABatteryMan, 891748867);
+	IMPLEMENT_CLASS(ABatteryMan, 2257355658);
 	template<> UNREALBASICSTUTORIAL_API UClass* StaticClass<ABatteryMan>()
 	{
 		return ABatteryMan::StaticClass();

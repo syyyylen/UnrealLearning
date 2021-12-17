@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\UnrealBasicsTutorial.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{FED49E48-DBD7-4B55-875B-EBCEE62E1C3D}</UniqueIdentifier>
+      <UniqueIdentifier>{C3631320-0E01-4195-B7C7-11450DF6CBB6}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\UnrealBasicsTutorial.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{4E3C34F7-E122-4278-AB7A-5CC05E167675}</UniqueIdentifier>
+      <UniqueIdentifier>{EDB66C5D-10F1-48C8-871E-6498250B560A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\UnrealBasicsTutorial">
-      <UniqueIdentifier>{91CF2198-7245-4187-AB7D-03A2B927CED3}</UniqueIdentifier>
+      <UniqueIdentifier>{E43555F6-F7B4-4AA2-8BB4-754624033E39}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\UnrealBasicsTutorial\BatteryMan.cpp">
       <Filter>Source\UnrealBasicsTutorial</Filter>

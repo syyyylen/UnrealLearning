@@ -49,7 +49,8 @@ void ABatteryMan::BeginPlay()
 	//Fonction evenementielle (je crois, une sorte de delegate) qui est appelée lors d'une collision 
 	GetCapsuleComponent()->OnComponentBeginOverlap.AddDynamic(this, &ABatteryMan::OnBeginOverlap);
 
-	//On vérifie que y a bien une UI dans le champ EditableAnywhere (serializé ?) du BP du player, pour éviter les erreurs ofc
+	//On vérifie que y a bien une UI dans le champ EditableAnywhere (serializé ?) du BP du player, 
+	//pour éviter les erreurs ofc
 	if (Player_Power_Widget_Class != nullptr)
 	{
 		//On crée depuis le monde un widget basé sur la classe 
@@ -73,7 +74,7 @@ void ABatteryMan::Tick(float DeltaTime)
 			//effet ragdoll sur le mesh
 			GetMesh()->SetSimulatePhysics(true);
 
-			//lance restart après un cout timer, sorte de coroutine ? 
+			//lance restart après un court timer, sorte de coroutine ? 
 			FTimerHandle UnusedHandle;
 			GetWorldTimerManager().SetTimer(UnusedHandle, this, &ABatteryMan::RestartGame, 3.0f, false);
 		}
@@ -134,7 +135,6 @@ void ABatteryMan::OnBeginOverlap(UPrimitiveComponent * HitComp,
 		OtherActor->Destroy();
 	}
 }
-
 
 void ABatteryMan::RestartGame()
 {

@@ -65,5 +65,6 @@
     <ClInclude Include="..\..\Source\UnrealBasicsTutorial\UnrealBasicsTutorialGameMode.h">
       <Filter>Source\UnrealBasicsTutorial</Filter>
     </ClInclude>
+    <None Include="cpp.hint" />
   </ItemGroup>
 </Project>

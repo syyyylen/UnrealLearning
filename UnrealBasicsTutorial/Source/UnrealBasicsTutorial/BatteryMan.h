@@ -43,6 +43,9 @@ public:
 	UPROPERTY(EditAnywhere)
 		float Power_Treshold;
 
+	UPROPERTY(EditAnywhere)
+		float Power_To_Add;
+
 	UFUNCTION()
 		void OnBeginOverlap(class UPrimitiveComponent* HitComp,
 			class AActor* OtherActor,

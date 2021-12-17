@@ -126,7 +126,7 @@ void ABatteryMan::OnBeginOverlap(UPrimitiveComponent * HitComp,
 		UE_LOG(LogTemp, Warning, TEXT("collided with"));
 
 		//On augmente le pouvoir ofc
-		Power += 20.0f;
+		Power += Power_To_Add;
 		if (Power > 100.0f)
 			Power = 100.0f;
 

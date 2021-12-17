@@ -1,15 +1,15 @@
-C:\Users\game3\Documents\GitHub\UnrealLearning\UnrealBasicsTutorial\Intermediate\Build\Win64\UE4Editor\Development\UnrealBasicsTutorial\Definitions.UnrealBasicsTutorial.h
-C:\Users\game3\Documents\GitHub\UnrealLearning\UnrealBasicsTutorial\Source\UnrealBasicsTutorial\UnrealBasicsTutorialGameMode.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
-C:\Users\game3\Documents\GitHub\UnrealLearning\UnrealBasicsTutorial\Intermediate\Build\Win64\UE4Editor\Inc\UnrealBasicsTutorial\UnrealBasicsTutorialGameMode.generated.h
-C:\Users\game3\Documents\GitHub\UnrealLearning\UnrealBasicsTutorial\Source\UnrealBasicsTutorial\UnrealBasicsTutorialCharacter.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/CharacterMovementReplication.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CharacterMovementReplication.generated.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
-C:\Users\game3\Documents\GitHub\UnrealLearning\UnrealBasicsTutorial\Intermediate\Build\Win64\UE4Editor\Inc\UnrealBasicsTutorial\UnrealBasicsTutorialCharacter.generated.h
+D:\mais_oui_mais_pingback\UnrealLearning\UnrealBasicsTutorial\Intermediate\Build\Win64\UE4Editor\Development\UnrealBasicsTutorial\Definitions.UnrealBasicsTutorial.h
+D:\mais_oui_mais_pingback\UnrealLearning\UnrealBasicsTutorial\Source\UnrealBasicsTutorial\UnrealBasicsTutorialGameMode.h
+D:\mais_oui_mais_pingback\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+D:\mais_oui_mais_pingback\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+D:\mais_oui_mais_pingback\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+D:\mais_oui_mais_pingback\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+D:\mais_oui_mais_pingback\UnrealLearning\UnrealBasicsTutorial\Intermediate\Build\Win64\UE4Editor\Inc\UnrealBasicsTutorial\UnrealBasicsTutorialGameMode.generated.h
+D:\mais_oui_mais_pingback\UnrealLearning\UnrealBasicsTutorial\Source\UnrealBasicsTutorial\UnrealBasicsTutorialCharacter.h
+D:\mais_oui_mais_pingback\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+D:\mais_oui_mais_pingback\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/CharacterMovementReplication.h
+D:\mais_oui_mais_pingback\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CharacterMovementReplication.generated.h
+D:\mais_oui_mais_pingback\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+D:\mais_oui_mais_pingback\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+D:\mais_oui_mais_pingback\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+D:\mais_oui_mais_pingback\UnrealLearning\UnrealBasicsTutorial\Intermediate\Build\Win64\UE4Editor\Inc\UnrealBasicsTutorial\UnrealBasicsTutorialCharacter.generated.h

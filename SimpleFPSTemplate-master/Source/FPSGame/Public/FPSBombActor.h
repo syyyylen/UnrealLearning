@@ -6,6 +6,10 @@
 #include "GameFramework/Actor.h"
 #include "FPSBombActor.generated.h"
 
+class UStaticMeshComponent;
+class UParticleSystem;
+
+
 UCLASS()
 class FPSGAME_API AFPSBombActor : public AActor
 {
@@ -18,6 +22,9 @@ public:
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
+
+	UPROPERTY(VisibleAnywhere, Category = "Components")
+	UStaticMeshComponent* MeshComp;
 
 	UPROPERTY(EditDefaultsOnly, Category = "BombActor")
 	float ExplodeDelay;

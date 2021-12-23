@@ -23,8 +23,14 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-	UPROPERTY(VisibleAnywhere, Category = "Components")
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "MeshComp")
 	UStaticMeshComponent* MeshComp;
+
+	FLinearColor CurrentColor;
+
+	FLinearColor TargetColor;
+
+	UMaterialInstanceDynamic* MaterialInst;
 
 	UPROPERTY(EditDefaultsOnly, Category = "BombActor")
 	float ExplodeDelay;

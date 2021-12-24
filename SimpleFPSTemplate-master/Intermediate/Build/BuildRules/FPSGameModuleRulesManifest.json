@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\mais_oui_mais_pingback\\UnrealLearning\\SimpleFPSTemplate-master\\Source\\FPSGame\\FPSGame.Build.cs",
+		"D:\\mais_oui_mais_pingback\\UnrealLearning\\SimpleFPSTemplate-master\\Source\\FPSGame.Target.cs",
+		"D:\\mais_oui_mais_pingback\\UnrealLearning\\SimpleFPSTemplate-master\\Source\\FPSGameEditor.Target.cs"
+	],
+	"EngineVersion": "4.27.2"
+}

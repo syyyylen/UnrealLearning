@@ -1,0 +1,22 @@
+D:\mais_oui_mais_pingback\UnrealLearning\SimpleFPSTemplate-master\Intermediate\Build\Win64\UE4Editor\Development\FPSGame\Definitions.FPSGame.h
+D:\mais_oui_mais_pingback\UnrealLearning\SimpleFPSTemplate-master\Source\FPSGame\Public\FPSGameMode.h
+D:\mais_oui_mais_pingback\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+D:\mais_oui_mais_pingback\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+D:\mais_oui_mais_pingback\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+D:\mais_oui_mais_pingback\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+D:\mais_oui_mais_pingback\UnrealLearning\SimpleFPSTemplate-master\Intermediate\Build\Win64\UE4Editor\Inc\FPSGame\FPSGameMode.generated.h
+D:\mais_oui_mais_pingback\UnrealLearning\SimpleFPSTemplate-master\Source\FPSGame\Public\FPSHUD.h
+D:\mais_oui_mais_pingback\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/HUD.h
+D:\mais_oui_mais_pingback\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/HUDHitBox.h
+D:\mais_oui_mais_pingback\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/DebugTextInfo.h
+D:\mais_oui_mais_pingback\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DebugTextInfo.generated.h
+D:\mais_oui_mais_pingback\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\HUD.generated.h
+D:\mais_oui_mais_pingback\UnrealLearning\SimpleFPSTemplate-master\Intermediate\Build\Win64\UE4Editor\Inc\FPSGame\FPSHUD.generated.h
+D:\mais_oui_mais_pingback\UnrealLearning\SimpleFPSTemplate-master\Source\FPSGame\Public\FPSCharacter.h
+D:\mais_oui_mais_pingback\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+D:\mais_oui_mais_pingback\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/CharacterMovementReplication.h
+D:\mais_oui_mais_pingback\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CharacterMovementReplication.generated.h
+D:\mais_oui_mais_pingback\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+D:\mais_oui_mais_pingback\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+D:\mais_oui_mais_pingback\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+D:\mais_oui_mais_pingback\UnrealLearning\SimpleFPSTemplate-master\Intermediate\Build\Win64\UE4Editor\Inc\FPSGame\FPSCharacter.generated.h

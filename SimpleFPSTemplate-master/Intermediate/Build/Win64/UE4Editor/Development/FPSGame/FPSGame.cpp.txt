@@ -1,0 +1,2 @@
+D:\mais_oui_mais_pingback\UnrealLearning\SimpleFPSTemplate-master\Intermediate\Build\Win64\UE4Editor\Development\FPSGame\Definitions.FPSGame.h
+D:\mais_oui_mais_pingback\UnrealLearning\SimpleFPSTemplate-master\Source\FPSGame\FPSGame.h

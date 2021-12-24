@@ -1,11 +1,12 @@
-﻿  Building UnrealBasicsTutorialEditor...
+﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\game3\Documents\GitHub\UnrealLearning).
+  Building UnrealBasicsTutorialEditor...
   Using Visual Studio 2022 14.30.30706 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Building 4 actions with 16 processes...
     [1/4] BatteryMan.cpp
-    [2/4] UE4Editor-UnrealBasicsTutorial-0034.lib
-       Création de la bibliothèque C:\Users\game3\Documents\Unreal Projects\UnrealBasicsTutorial\Intermediate\Build\Win64\UE4Editor\Development\UnrealBasicsTutorial\UE4Editor-UnrealBasicsTutorial-0034.lib et de l'objet C:\Users\game3\Documents\Unreal Projects\UnrealBasicsTutorial\Intermediate\Build\Win64\UE4Editor\Development\UnrealBasicsTutorial\UE4Editor-UnrealBasicsTutorial-0034.exp
-    [3/4] UE4Editor-UnrealBasicsTutorial-0034.dll
-       Création de la bibliothèque C:\Users\game3\Documents\Unreal Projects\UnrealBasicsTutorial\Intermediate\Build\Win64\UE4Editor\Development\UnrealBasicsTutorial\UE4Editor-UnrealBasicsTutorial-0034.suppressed.lib et de l'objet C:\Users\game3\Documents\Unreal Projects\UnrealBasicsTutorial\Intermediate\Build\Win64\UE4Editor\Development\UnrealBasicsTutorial\UE4Editor-UnrealBasicsTutorial-0034.suppressed.exp
+    [2/4] UE4Editor-UnrealBasicsTutorial-0024.lib
+       Création de la bibliothèque C:\Users\game3\Documents\GitHub\UnrealLearning\UnrealBasicsTutorial\Intermediate\Build\Win64\UE4Editor\Development\UnrealBasicsTutorial\UE4Editor-UnrealBasicsTutorial-0024.lib et de l'objet C:\Users\game3\Documents\GitHub\UnrealLearning\UnrealBasicsTutorial\Intermediate\Build\Win64\UE4Editor\Development\UnrealBasicsTutorial\UE4Editor-UnrealBasicsTutorial-0024.exp
+    [3/4] UE4Editor-UnrealBasicsTutorial-0024.dll
+       Création de la bibliothèque C:\Users\game3\Documents\GitHub\UnrealLearning\UnrealBasicsTutorial\Intermediate\Build\Win64\UE4Editor\Development\UnrealBasicsTutorial\UE4Editor-UnrealBasicsTutorial-0024.suppressed.lib et de l'objet C:\Users\game3\Documents\GitHub\UnrealLearning\UnrealBasicsTutorial\Intermediate\Build\Win64\UE4Editor\Development\UnrealBasicsTutorial\UE4Editor-UnrealBasicsTutorial-0024.suppressed.exp
     [4/4] UnrealBasicsTutorialEditor.target
-  Total time in Parallel executor: 2,73 seconds
-  Total execution time: 3,26 seconds
+  Total time in Parallel executor: 3,04 seconds
+  Total execution time: 3,59 seconds

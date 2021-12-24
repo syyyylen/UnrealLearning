@@ -1,6 +1,10 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "BatteryMan.h"
+#include "Components/SkeletalMeshComponent.h"
+#include "GameFramework/Actor.h"
+#include "Kismet/GameplayStatics.h"
+
 
 // Sets default values
 ABatteryMan::ABatteryMan()
@@ -32,15 +36,28 @@ ABatteryMan::ABatteryMan()
 	FollowCamera->bUsePawnControlRotation = false;
 
 	bDead = false;
+	Power = 100.0f;
 }
 
 // Called when the game starts or when spawned
 void ABatteryMan::BeginPlay()
 {
 	Super::BeginPlay();
-	
-	GetCapsuleComponent()->OnComponentBeginOverlap.AddDynamic(this, &ABatteryMan::OnBeginOverlap);
+
 	UE_LOG(LogTemp, Warning, TEXT("begin play log"));
+	
+	//Fonction evenementielle (je crois, une sorte de delegate) qui est appelée lors d'une collision 
+	GetCapsuleComponent()->OnComponentBeginOverlap.AddDynamic(this, &ABatteryMan::OnBeginOverlap);
+
+	//On vérifie que y a bien une UI dans le champ EditableAnywhere (serializé ?) du BP du player, 
+	//pour éviter les erreurs ofc
+	if (Player_Power_Widget_Class != nullptr)
+	{
+		//On crée depuis le monde un widget basé sur la classe 
+		Player_Power_Widget = CreateWidget(GetWorld(), Player_Power_Widget_Class);
+		//Et on l'ajoute au viewport 
+		Player_Power_Widget->AddToViewport();
+	}
 }
 
 // Called every frame
@@ -48,6 +65,20 @@ void ABatteryMan::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+	Power -= DeltaTime * Power_Treshold;
+
+	if (Power <= 0) {
+		if (!bDead) {
+			bDead = true;
+
+			//effet ragdoll sur le mesh
+			GetMesh()->SetSimulatePhysics(true);
+
+			//lance restart après un court timer, sorte de coroutine ? 
+			FTimerHandle UnusedHandle;
+			GetWorldTimerManager().SetTimer(UnusedHandle, this, &ABatteryMan::RestartGame, 3.0f, false);
+		}
+	}
 }
 
 // Called to bind functionality to input
@@ -92,11 +123,21 @@ void ABatteryMan::OnBeginOverlap(UPrimitiveComponent * HitComp,
 	bool bFromSweep, const FHitResult & SweepResult)
 {
 	if (OtherActor->ActorHasTag("Recharge")) {
+		//J'entre bien dans la fonction ? 
 		UE_LOG(LogTemp, Warning, TEXT("collided with"));
-	}
-	else
-	{
-		UE_LOG(LogTemp, Warning, TEXT("il a pas le tag"));
+
+		//On augmente le pouvoir ofc
+		Power += Power_To_Add;
+		if (Power > 100.0f)
+			Power = 100.0f;
+
+		//Destruction de l'autre Actor touché 
+		OtherActor->Destroy();
 	}
 }
 
+void ABatteryMan::RestartGame()
+{
+	//On récupère le nom de la scène et on la recharge
+	UGameplayStatics::OpenLevel(this, FName(*GetWorld()->GetName()), false);
+}

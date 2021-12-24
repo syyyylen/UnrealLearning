@@ -33,6 +33,7 @@ public:
 
 	void MoveForward(float Axis);
 	void MoveRight(float Axis);
+	void RestartGame();
 	
 	bool bDead;
 
@@ -42,6 +43,9 @@ public:
 	UPROPERTY(EditAnywhere)
 		float Power_Treshold;
 
+	UPROPERTY(EditAnywhere)
+		float Power_To_Add;
+
 	UFUNCTION()
 		void OnBeginOverlap(class UPrimitiveComponent* HitComp,
 			class AActor* OtherActor,
@@ -49,6 +53,10 @@ public:
 			int32 OtherBodyIndex,
 			bool bFromSweep,
 			const FHitResult& SweepResult);
+
+	UPROPERTY(EditAnywhere, Category = "UI HUD")
+		TSubclassOf<UUserWidget> Player_Power_Widget_Class;
+		UUserWidget* Player_Power_Widget;
 
 protected:
 	// Called when the game starts or when spawned

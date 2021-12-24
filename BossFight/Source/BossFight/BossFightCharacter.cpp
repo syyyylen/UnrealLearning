@@ -8,8 +8,9 @@
 #include "GameFramework/CharacterMovementComponent.h"
 #include "GameFramework/Controller.h"
 #include "GameFramework/SpringArmComponent.h"
+#include "Kismet/GameplayStatics.h"
+#include "GameFramework/Actor.h"
 
-//////////////////////////////////////////////////////////////////////////
 // ABossFightCharacter
 
 ABossFightCharacter::ABossFightCharacter()
@@ -45,9 +46,12 @@ ABossFightCharacter::ABossFightCharacter()
 
 	// Note: The skeletal mesh and anim blueprint references on the Mesh component (inherited from Character) 
 	// are set in the derived blueprint asset named MyCharacter (to avoid direct content references in C++)
+
+	//---------------------------------------------My stuff--------------------------------------------------
+
+	PlayerHealth = 100.0f; 
 }
 
-//////////////////////////////////////////////////////////////////////////
 // Input
 
 void ABossFightCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent)
@@ -76,6 +80,39 @@ void ABossFightCharacter::SetupPlayerInputComponent(class UInputComponent* Playe
 	PlayerInputComponent->BindAction("ResetVR", IE_Pressed, this, &ABossFightCharacter::OnResetVR);
 }
 
+
+void ABossFightCharacter::BeginPlay()
+{
+	Super::BeginPlay();
+
+	UE_LOG(LogTemp, Warning, TEXT("begin play log"));
+
+	GetCapsuleComponent()->OnComponentBeginOverlap.AddDynamic(this, &ABossFightCharacter::OnBeginOverlap);
+
+	//On vérifie que y a bien une UI dans le champ EditableAnywhere (serializé ?) du BP du player, 
+	//pour éviter les erreurs ofc
+	if (Player_Health_Widget_Class != nullptr)
+	{
+		//On crée depuis le monde un widget basé sur la classe 
+		Player_Health_Widget = CreateWidget(GetWorld(), Player_Health_Widget_Class);
+		//Et on l'ajoute au viewport 
+		Player_Health_Widget->AddToViewport();
+	}
+}
+
+void ABossFightCharacter::OnBeginOverlap(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
+{
+	UE_LOG(LogTemp, Warning, TEXT("OnBeginOverlap happened"));
+
+	if (OtherActor->ActorHasTag("Damaging")) {
+
+		UE_LOG(LogTemp, Warning, TEXT("collided with damaging obj"));
+
+		PlayerHealth -= 10.0f;
+
+		OtherActor->Destroy();
+	}
+}
 
 void ABossFightCharacter::OnResetVR()
 {

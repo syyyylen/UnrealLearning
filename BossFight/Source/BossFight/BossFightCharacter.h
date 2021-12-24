@@ -4,6 +4,9 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "Blueprint/UserWidget.h"
+
+//Must be the last include 
 #include "BossFightCharacter.generated.h"
 
 UCLASS(config=Game)
@@ -28,6 +31,26 @@ public:
 	/** Base look up/down rate, in deg/sec. Other scaling may affect final rate. */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Camera)
 	float BaseLookUpRate;
+
+	//----------------------------------My Stuff-------------------------------------
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+		float PlayerHealth;
+
+	UFUNCTION()
+		void OnBeginOverlap(class UPrimitiveComponent* HitComp,
+			class AActor* OtherActor,
+			class UPrimitiveComponent* OtherComp,
+			int32 OtherBodyIndex,
+			bool bFromSweep,
+			const FHitResult& SweepResult);
+
+	UPROPERTY(EditAnywhere, Category = "UI HUD")
+	TSubclassOf<UUserWidget> Player_Health_Widget_Class;
+	UUserWidget* Player_Health_Widget;
+
+	virtual void BeginPlay() override;
+	
 
 protected:
 

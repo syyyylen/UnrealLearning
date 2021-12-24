@@ -8,15 +8,26 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UPrimitiveComponent;
+class AActor;
+struct FHitResult;
 #ifdef BOSSFIGHT_BossFightCharacter_generated_h
 #error "BossFightCharacter.generated.h already included, missing '#pragma once' in BossFightCharacter.h"
 #endif
 #define BOSSFIGHT_BossFightCharacter_generated_h
 
-#define BossFight_Source_BossFight_BossFightCharacter_h_12_SPARSE_DATA
-#define BossFight_Source_BossFight_BossFightCharacter_h_12_RPC_WRAPPERS
-#define BossFight_Source_BossFight_BossFightCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS
-#define BossFight_Source_BossFight_BossFightCharacter_h_12_INCLASS_NO_PURE_DECLS \
+#define BossFight_Source_BossFight_BossFightCharacter_h_15_SPARSE_DATA
+#define BossFight_Source_BossFight_BossFightCharacter_h_15_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execOnBeginOverlap);
+
+
+#define BossFight_Source_BossFight_BossFightCharacter_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execOnBeginOverlap);
+
+
+#define BossFight_Source_BossFight_BossFightCharacter_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesABossFightCharacter(); \
 	friend struct Z_Construct_UClass_ABossFightCharacter_Statics; \
@@ -25,7 +36,7 @@ public: \
 	DECLARE_SERIALIZER(ABossFightCharacter)
 
 
-#define BossFight_Source_BossFight_BossFightCharacter_h_12_INCLASS \
+#define BossFight_Source_BossFight_BossFightCharacter_h_15_INCLASS \
 private: \
 	static void StaticRegisterNativesABossFightCharacter(); \
 	friend struct Z_Construct_UClass_ABossFightCharacter_Statics; \
@@ -34,7 +45,7 @@ public: \
 	DECLARE_SERIALIZER(ABossFightCharacter)
 
 
-#define BossFight_Source_BossFight_BossFightCharacter_h_12_STANDARD_CONSTRUCTORS \
+#define BossFight_Source_BossFight_BossFightCharacter_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ABossFightCharacter(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ABossFightCharacter) \
@@ -47,7 +58,7 @@ private: \
 public:
 
 
-#define BossFight_Source_BossFight_BossFightCharacter_h_12_ENHANCED_CONSTRUCTORS \
+#define BossFight_Source_BossFight_BossFightCharacter_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ABossFightCharacter(ABossFightCharacter&&); \
@@ -58,32 +69,32 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ABossFightCharacter)
 
 
-#define BossFight_Source_BossFight_BossFightCharacter_h_12_PRIVATE_PROPERTY_OFFSET \
+#define BossFight_Source_BossFight_BossFightCharacter_h_15_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__CameraBoom() { return STRUCT_OFFSET(ABossFightCharacter, CameraBoom); } \
 	FORCEINLINE static uint32 __PPO__FollowCamera() { return STRUCT_OFFSET(ABossFightCharacter, FollowCamera); }
 
 
-#define BossFight_Source_BossFight_BossFightCharacter_h_9_PROLOG
-#define BossFight_Source_BossFight_BossFightCharacter_h_12_GENERATED_BODY_LEGACY \
+#define BossFight_Source_BossFight_BossFightCharacter_h_12_PROLOG
+#define BossFight_Source_BossFight_BossFightCharacter_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	BossFight_Source_BossFight_BossFightCharacter_h_12_PRIVATE_PROPERTY_OFFSET \
-	BossFight_Source_BossFight_BossFightCharacter_h_12_SPARSE_DATA \
-	BossFight_Source_BossFight_BossFightCharacter_h_12_RPC_WRAPPERS \
-	BossFight_Source_BossFight_BossFightCharacter_h_12_INCLASS \
-	BossFight_Source_BossFight_BossFightCharacter_h_12_STANDARD_CONSTRUCTORS \
+	BossFight_Source_BossFight_BossFightCharacter_h_15_PRIVATE_PROPERTY_OFFSET \
+	BossFight_Source_BossFight_BossFightCharacter_h_15_SPARSE_DATA \
+	BossFight_Source_BossFight_BossFightCharacter_h_15_RPC_WRAPPERS \
+	BossFight_Source_BossFight_BossFightCharacter_h_15_INCLASS \
+	BossFight_Source_BossFight_BossFightCharacter_h_15_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define BossFight_Source_BossFight_BossFightCharacter_h_12_GENERATED_BODY \
+#define BossFight_Source_BossFight_BossFightCharacter_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	BossFight_Source_BossFight_BossFightCharacter_h_12_PRIVATE_PROPERTY_OFFSET \
-	BossFight_Source_BossFight_BossFightCharacter_h_12_SPARSE_DATA \
-	BossFight_Source_BossFight_BossFightCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
-	BossFight_Source_BossFight_BossFightCharacter_h_12_INCLASS_NO_PURE_DECLS \
-	BossFight_Source_BossFight_BossFightCharacter_h_12_ENHANCED_CONSTRUCTORS \
+	BossFight_Source_BossFight_BossFightCharacter_h_15_PRIVATE_PROPERTY_OFFSET \
+	BossFight_Source_BossFight_BossFightCharacter_h_15_SPARSE_DATA \
+	BossFight_Source_BossFight_BossFightCharacter_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	BossFight_Source_BossFight_BossFightCharacter_h_15_INCLASS_NO_PURE_DECLS \
+	BossFight_Source_BossFight_BossFightCharacter_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\BossFight.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{41CB81DA-4E20-47F6-918A-4935E5886836}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\BossFight.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\BossFightEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{52571ADC-75E2-45CC-B247-21E29FB66CF5}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\BossFight">
+      <UniqueIdentifier>{2F948F88-0522-47DC-B769-88365D4F3B5F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\BossFight\Boss.cpp">
+      <Filter>Source\BossFight</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BossFight\Boss.h">
+      <Filter>Source\BossFight</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\BossFight\BossFight.Build.cs">
+      <Filter>Source\BossFight</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\BossFight\BossFight.cpp">
+      <Filter>Source\BossFight</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BossFight\BossFight.h">
+      <Filter>Source\BossFight</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BossFight\BossFightCharacter.cpp">
+      <Filter>Source\BossFight</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BossFight\BossFightCharacter.h">
+      <Filter>Source\BossFight</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BossFight\BossFightGameMode.cpp">
+      <Filter>Source\BossFight</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BossFight\BossFightGameMode.h">
+      <Filter>Source\BossFight</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

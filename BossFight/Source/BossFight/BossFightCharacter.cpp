@@ -87,8 +87,6 @@ void ABossFightCharacter::BeginPlay()
 {
 	Super::BeginPlay();
 
-	UE_LOG(LogTemp, Warning, TEXT("begin play log"));
-
 	GetCapsuleComponent()->OnComponentBeginOverlap.AddDynamic(this, &ABossFightCharacter::OnBeginOverlap);
 
 	//On vérifie que y a bien une UI dans le champ EditableAnywhere (serializé ?) du BP du player, 

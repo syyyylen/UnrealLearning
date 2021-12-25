@@ -34,8 +34,15 @@ public:
 
 	//----------------------------------My Stuff-------------------------------------
 
+	void RestartGame();
+
+	bool bDead;
+
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 		float PlayerHealth;
+
+	UPROPERTY(EditAnywhere, Category = "dmg taken")
+		float DamageTaken;
 
 	UFUNCTION()
 		void OnBeginOverlap(class UPrimitiveComponent* HitComp,

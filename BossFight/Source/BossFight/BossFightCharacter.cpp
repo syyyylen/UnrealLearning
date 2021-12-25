@@ -50,6 +50,8 @@ ABossFightCharacter::ABossFightCharacter()
 	//---------------------------------------------My stuff--------------------------------------------------
 
 	PlayerHealth = 100.0f; 
+
+	bDead = false;
 }
 
 // Input
@@ -100,6 +102,7 @@ void ABossFightCharacter::BeginPlay()
 	}
 }
 
+
 void ABossFightCharacter::OnBeginOverlap(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
 	UE_LOG(LogTemp, Warning, TEXT("OnBeginOverlap happened"));
@@ -108,10 +111,29 @@ void ABossFightCharacter::OnBeginOverlap(UPrimitiveComponent* HitComp, AActor* O
 
 		UE_LOG(LogTemp, Warning, TEXT("collided with damaging obj"));
 
-		PlayerHealth -= 10.0f;
+		PlayerHealth -= DamageTaken;
+
+		if (PlayerHealth <= 0) {
+			if (!bDead) {
+				bDead = true;
+
+				//effet ragdoll sur le mesh
+				GetMesh()->SetSimulatePhysics(true);
+
+				//lance restart après un court timer, sorte de coroutine
+				FTimerHandle UnusedHandle;
+				GetWorldTimerManager().SetTimer(UnusedHandle, this, &ABossFightCharacter::RestartGame, 1.5f, false);
+			}
+		}
 
 		OtherActor->Destroy();
 	}
+}
+
+void ABossFightCharacter::RestartGame()
+{
+	//On récupère le nom de la scène et on la recharge
+	UGameplayStatics::OpenLevel(this, FName(*GetWorld()->GetName()), false);
 }
 
 void ABossFightCharacter::OnResetVR()

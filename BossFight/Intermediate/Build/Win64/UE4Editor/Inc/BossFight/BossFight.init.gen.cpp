@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeBossFight_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x2A221329,
+				0x889B4365,
 				0xF1664F8A,
 				METADATA_PARAMS(nullptr, 0)
 			};

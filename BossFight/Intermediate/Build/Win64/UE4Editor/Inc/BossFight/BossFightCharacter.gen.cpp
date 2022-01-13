@@ -163,6 +163,10 @@ void EmptyLinkFunctionForGeneratedCodeBossFightCharacter() {}
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_DamageTaken;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_DamageInviciblityDuration_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_DamageInviciblityDuration;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Player_Health_Widget_Class_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FClassPropertyParams NewProp_Player_Health_Widget_Class;
@@ -239,6 +243,13 @@ void EmptyLinkFunctionForGeneratedCodeBossFightCharacter() {}
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ABossFightCharacter_Statics::NewProp_DamageTaken = { "DamageTaken", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABossFightCharacter, DamageTaken), METADATA_PARAMS(Z_Construct_UClass_ABossFightCharacter_Statics::NewProp_DamageTaken_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABossFightCharacter_Statics::NewProp_DamageTaken_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABossFightCharacter_Statics::NewProp_DamageInviciblityDuration_MetaData[] = {
+		{ "Category", "dmg invicibilty duration" },
+		{ "ModuleRelativePath", "BossFightCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ABossFightCharacter_Statics::NewProp_DamageInviciblityDuration = { "DamageInviciblityDuration", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABossFightCharacter, DamageInviciblityDuration), METADATA_PARAMS(Z_Construct_UClass_ABossFightCharacter_Statics::NewProp_DamageInviciblityDuration_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABossFightCharacter_Statics::NewProp_DamageInviciblityDuration_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABossFightCharacter_Statics::NewProp_Player_Health_Widget_Class_MetaData[] = {
 		{ "Category", "UI HUD" },
 		{ "ModuleRelativePath", "BossFightCharacter.h" },
@@ -252,6 +263,7 @@ void EmptyLinkFunctionForGeneratedCodeBossFightCharacter() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABossFightCharacter_Statics::NewProp_BaseLookUpRate,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABossFightCharacter_Statics::NewProp_PlayerHealth,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABossFightCharacter_Statics::NewProp_DamageTaken,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABossFightCharacter_Statics::NewProp_DamageInviciblityDuration,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABossFightCharacter_Statics::NewProp_Player_Health_Widget_Class,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ABossFightCharacter_Statics::StaticCppClassTypeInfo = {
@@ -281,7 +293,7 @@ void EmptyLinkFunctionForGeneratedCodeBossFightCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABossFightCharacter, 479083251);
+	IMPLEMENT_CLASS(ABossFightCharacter, 1804873449);
 	template<> BOSSFIGHT_API UClass* StaticClass<ABossFightCharacter>()
 	{
 		return ABossFightCharacter::StaticClass();

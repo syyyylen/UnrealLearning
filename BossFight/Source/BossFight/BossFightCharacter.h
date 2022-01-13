@@ -36,6 +36,8 @@ public:
 
 	void RestartGame();
 
+	void DmgRdyUp();
+
 	bool bDead;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
@@ -43,6 +45,11 @@ public:
 
 	UPROPERTY(EditAnywhere, Category = "dmg taken")
 		float DamageTaken;
+
+	bool DmgInvRdy;
+
+	UPROPERTY(EditAnywhere, Category = "dmg invicibilty duration")
+		float DamageInviciblityDuration;
 
 	UFUNCTION()
 		void OnBeginOverlap(class UPrimitiveComponent* HitComp,

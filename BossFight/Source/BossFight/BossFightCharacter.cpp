@@ -51,6 +51,10 @@ ABossFightCharacter::ABossFightCharacter()
 
 	PlayerHealth = 100.0f; 
 
+	DamageInviciblityDuration = 0.3f;
+
+	DmgInvRdy = true;
+
 	bDead = false;
 }
 
@@ -109,23 +113,34 @@ void ABossFightCharacter::OnBeginOverlap(UPrimitiveComponent* HitComp, AActor* O
 
 		UE_LOG(LogTemp, Warning, TEXT("collided with damaging obj"));
 
-		PlayerHealth -= DamageTaken;
+		if (DmgInvRdy)
+		{
+			PlayerHealth -= DamageTaken;
 
-		if (PlayerHealth <= 0) {
-			if (!bDead) {
-				bDead = true;
+			DmgInvRdy = false;
 
-				//effet ragdoll sur le mesh
-				GetMesh()->SetSimulatePhysics(true);
+			FTimerHandle DmgCdHandle;
+			GetWorldTimerManager().SetTimer(DmgCdHandle, this, &ABossFightCharacter::DmgRdyUp, DamageInviciblityDuration, false);
 
-				//lance restart après un court timer, sorte de coroutine
-				FTimerHandle UnusedHandle;
-				GetWorldTimerManager().SetTimer(UnusedHandle, this, &ABossFightCharacter::RestartGame, 1.5f, false);
+			if (PlayerHealth <= 0) {
+				if (!bDead) {
+					bDead = true;
+
+					//effet ragdoll sur le mesh
+					GetMesh()->SetSimulatePhysics(true);
+
+					//lance restart après un court timer, sorte de coroutine
+					FTimerHandle UnusedHandle;
+					GetWorldTimerManager().SetTimer(UnusedHandle, this, &ABossFightCharacter::RestartGame, 1.5f, false);
+				}
 			}
 		}
-
-		OtherActor->Destroy();
 	}
+}
+
+void ABossFightCharacter::DmgRdyUp()
+{
+	DmgInvRdy = true;
 }
 
 void ABossFightCharacter::RestartGame()

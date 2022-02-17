@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\mais_oui_mais_pingback\\UnrealLearning\\CPPTraining\\Source\\CPPTraining\\CPPTraining.Build.cs",
+		"D:\\mais_oui_mais_pingback\\UnrealLearning\\CPPTraining\\Source\\CPPTraining.Target.cs",
+		"D:\\mais_oui_mais_pingback\\UnrealLearning\\CPPTraining\\Source\\CPPTrainingEditor.Target.cs"
+	],
+	"EngineVersion": "4.27.2"
+}

@@ -1,0 +1,2 @@
+D:\mais_oui_mais_pingback\UnrealLearning\CPPTraining\Intermediate\Build\Win64\UE4Editor\Development\CPPTraining\Definitions.CPPTraining.h
+D:\mais_oui_mais_pingback\UnrealLearning\CPPTraining\Source\CPPTraining\CPPTraining.h

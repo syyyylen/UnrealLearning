@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\CPPTraining.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F2A47914-AFEE-4819-B943-A0EE30A118ED}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\CPPTraining.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\CPPTrainingEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{EC6F77BB-C4EF-425D-91BB-EECDE873EAB2}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\CPPTraining">
+      <UniqueIdentifier>{CA5C7C1D-A974-404D-9400-60BD50A7A6B2}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\CPPTraining\CPPTraining.Build.cs">
+      <Filter>Source\CPPTraining</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\CPPTraining\CPPTraining.cpp">
+      <Filter>Source\CPPTraining</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CPPTraining\CPPTraining.h">
+      <Filter>Source\CPPTraining</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CPPTraining\CPPTrainingCharacter.cpp">
+      <Filter>Source\CPPTraining</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CPPTraining\CPPTrainingCharacter.h">
+      <Filter>Source\CPPTraining</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CPPTraining\CPPTrainingGameMode.cpp">
+      <Filter>Source\CPPTraining</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CPPTraining\CPPTrainingGameMode.h">
+      <Filter>Source\CPPTraining</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CPPTraining\CPPTrainingHUD.cpp">
+      <Filter>Source\CPPTraining</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CPPTraining\CPPTrainingHUD.h">
+      <Filter>Source\CPPTraining</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CPPTraining\CPPTrainingProjectile.cpp">
+      <Filter>Source\CPPTraining</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CPPTraining\CPPTrainingProjectile.h">
+      <Filter>Source\CPPTraining</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CPPTraining\Experiments.cpp">
+      <Filter>Source\CPPTraining</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CPPTraining\Experiments.h">
+      <Filter>Source\CPPTraining</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,17 @@
+D:\mais_oui_mais_pingback\UnrealLearning\CPPTraining\Intermediate\Build\Win64\UE4Editor\Development\CPPTraining\Definitions.CPPTraining.h
+D:\mais_oui_mais_pingback\UnrealLearning\CPPTraining\Source\CPPTraining\CPPTrainingHUD.h
+D:\mais_oui_mais_pingback\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/HUD.h
+D:\mais_oui_mais_pingback\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/HUDHitBox.h
+D:\mais_oui_mais_pingback\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/DebugTextInfo.h
+D:\mais_oui_mais_pingback\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DebugTextInfo.generated.h
+D:\mais_oui_mais_pingback\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\HUD.generated.h
+D:\mais_oui_mais_pingback\UnrealLearning\CPPTraining\Intermediate\Build\Win64\UE4Editor\Inc\CPPTraining\CPPTrainingHUD.generated.h
+D:\mais_oui_mais_pingback\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/Canvas.h
+D:\mais_oui_mais_pingback\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Public\CanvasItem.h
+D:\mais_oui_mais_pingback\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/Font.h
+D:\mais_oui_mais_pingback\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/FontImportOptions.h
+D:\mais_oui_mais_pingback\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\FontImportOptions.generated.h
+D:\mais_oui_mais_pingback\Epic Games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Fonts/FontProviderInterface.h
+D:\mais_oui_mais_pingback\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore\FontProviderInterface.generated.h
+D:\mais_oui_mais_pingback\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Font.generated.h
+D:\mais_oui_mais_pingback\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Canvas.generated.h

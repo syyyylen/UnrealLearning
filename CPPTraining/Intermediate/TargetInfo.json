@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "CPPTraining",
+			"Path": "D:\\mais_oui_mais_pingback\\UnrealLearning\\CPPTraining\\Source\\CPPTraining.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "CPPTrainingEditor",
+			"Path": "D:\\mais_oui_mais_pingback\\UnrealLearning\\CPPTraining\\Source\\CPPTrainingEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

@@ -1,0 +1,12 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\mais_oui_mais_pingback\UnrealLearning).
+  Building CPPTrainingEditor...
+  Using Visual Studio 2022 14.30.30706 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 4 actions with 12 processes...
+    [1/4] Experiments.cpp
+    [2/4] UE4Editor-CPPTraining-0005.lib
+       Création de la bibliothèque D:\mais_oui_mais_pingback\UnrealLearning\CPPTraining\Intermediate\Build\Win64\UE4Editor\Development\CPPTraining\UE4Editor-CPPTraining-0005.lib et de l'objet D:\mais_oui_mais_pingback\UnrealLearning\CPPTraining\Intermediate\Build\Win64\UE4Editor\Development\CPPTraining\UE4Editor-CPPTraining-0005.exp
+    [3/4] UE4Editor-CPPTraining-0005.dll
+       Création de la bibliothèque D:\mais_oui_mais_pingback\UnrealLearning\CPPTraining\Intermediate\Build\Win64\UE4Editor\Development\CPPTraining\UE4Editor-CPPTraining-0005.suppressed.lib et de l'objet D:\mais_oui_mais_pingback\UnrealLearning\CPPTraining\Intermediate\Build\Win64\UE4Editor\Development\CPPTraining\UE4Editor-CPPTraining-0005.suppressed.exp
+    [4/4] CPPTrainingEditor.target
+  Total time in Parallel executor: 1,47 seconds
+  Total execution time: 2,26 seconds

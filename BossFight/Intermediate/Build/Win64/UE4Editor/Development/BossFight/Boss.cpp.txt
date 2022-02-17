@@ -1,9 +1,9 @@
-C:\Users\game3\Documents\GitHub\UnrealLearning\BossFight\Intermediate\Build\Win64\UE4Editor\Development\BossFight\Definitions.BossFight.h
-C:\Users\game3\Documents\GitHub\UnrealLearning\BossFight\Source\BossFight\Boss.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/CharacterMovementReplication.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CharacterMovementReplication.generated.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
-C:\Users\game3\Documents\GitHub\UnrealLearning\BossFight\Intermediate\Build\Win64\UE4Editor\Inc\BossFight\Boss.generated.h
+D:\mais_oui_mais_pingback\UnrealLearning\BossFight\Intermediate\Build\Win64\UE4Editor\Development\BossFight\Definitions.BossFight.h
+D:\mais_oui_mais_pingback\UnrealLearning\BossFight\Source\BossFight\Boss.h
+D:\mais_oui_mais_pingback\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+D:\mais_oui_mais_pingback\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/CharacterMovementReplication.h
+D:\mais_oui_mais_pingback\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CharacterMovementReplication.generated.h
+D:\mais_oui_mais_pingback\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+D:\mais_oui_mais_pingback\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+D:\mais_oui_mais_pingback\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+D:\mais_oui_mais_pingback\UnrealLearning\BossFight\Intermediate\Build\Win64\UE4Editor\Inc\BossFight\Boss.generated.h

@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\BossFight.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{47417618-82FD-4FD5-A827-3FFACE3BCA90}</UniqueIdentifier>
+      <UniqueIdentifier>{A6FB5697-F8FE-48FE-A204-3D94EE26682A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\BossFight.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{BBE5CA56-8588-4A5A-8FCB-E6F35D7560F1}</UniqueIdentifier>
+      <UniqueIdentifier>{B5961BF3-2638-436E-ABDC-2DCDE37B1092}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\BossFight">
-      <UniqueIdentifier>{B2465258-3445-48B9-8E26-C1EC2B7C1227}</UniqueIdentifier>
+      <UniqueIdentifier>{A09DBF75-5C05-4B82-96EF-22A4D39DC9B9}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\BossFight\Boss.cpp">
       <Filter>Source\BossFight</Filter>

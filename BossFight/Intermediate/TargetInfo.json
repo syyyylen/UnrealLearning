@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "BossFight",
-			"Path": "C:\\Users\\game3\\Documents\\GitHub\\UnrealLearning\\BossFight\\Source\\BossFight.Target.cs",
+			"Path": "D:\\mais_oui_mais_pingback\\UnrealLearning\\BossFight\\Source\\BossFight.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "BossFightEditor",
-			"Path": "C:\\Users\\game3\\Documents\\GitHub\\UnrealLearning\\BossFight\\Source\\BossFightEditor.Target.cs",
+			"Path": "D:\\mais_oui_mais_pingback\\UnrealLearning\\BossFight\\Source\\BossFightEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]

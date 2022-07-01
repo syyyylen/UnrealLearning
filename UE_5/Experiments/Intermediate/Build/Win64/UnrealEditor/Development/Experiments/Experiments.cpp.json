@@ -1,0 +1,14 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "d:\\mais_oui_mais_pingback\\unreallearning\\ue_5\\experiments\\source\\experiments\\experiments.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\mais_oui_mais_pingback\\unreallearning\\ue_5\\experiments\\intermediate\\build\\win64\\experimentseditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "d:\\mais_oui_mais_pingback\\unreallearning\\ue_5\\experiments\\intermediate\\build\\win64\\unrealeditor\\development\\experiments\\definitions.experiments.h",
+            "d:\\mais_oui_mais_pingback\\unreallearning\\ue_5\\experiments\\source\\experiments\\experiments.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

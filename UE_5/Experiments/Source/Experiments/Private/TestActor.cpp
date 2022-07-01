@@ -25,7 +25,7 @@ void ATestActor::BeginPlay()
 
 	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Orange, FString::Printf(TEXT("The location is: %s"), *Location.ToString()));
 
-	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Blue, TEXT("Hello There"));
+	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Blue, TEXT("Hello There - General Kenobi"));
 	
 	DrawDebugSphere(GetWorld(), Location, 200, 26, FColor(181, 0, 0), true, -1, 0, 2);
 }

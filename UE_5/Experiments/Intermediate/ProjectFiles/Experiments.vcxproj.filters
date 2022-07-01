@@ -29,6 +29,12 @@
     <None Include="..\..\Config\DefaultInput.ini">
       <Filter>Config</Filter>
     </None>
+    <Filter Include="Config\HoloLens">
+      <UniqueIdentifier>{4C8DD267-CDE7-336F-8602-F5F485D22BAB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\HoloLens\HoloLensEngine.ini">
+      <Filter>Config\HoloLens</Filter>
+    </None>
     <Filter Include="Source\Experiments">
       <UniqueIdentifier>{49ED9E45-E1C5-380C-AE13-F8758447B93C}</UniqueIdentifier>
     </Filter>
@@ -56,12 +62,18 @@
     <Filter Include="Source\Experiments\Private">
       <UniqueIdentifier>{9B269C57-D5AE-3D32-B9BE-A49D665F5024}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\Experiments\Private\Debug_Things_Actor.cpp">
+      <Filter>Source\Experiments\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\Experiments\Private\TestActor.cpp">
       <Filter>Source\Experiments\Private</Filter>
     </ClCompile>
     <Filter Include="Source\Experiments\Public">
       <UniqueIdentifier>{9563AB5C-5345-3A25-B89E-EBB0E1CE88F2}</UniqueIdentifier>
     </Filter>
+    <ClInclude Include="..\..\Source\Experiments\Public\Debug_Things_Actor.h">
+      <Filter>Source\Experiments\Public</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Source\Experiments\Public\TestActor.h">
       <Filter>Source\Experiments\Public</Filter>
     </ClInclude>

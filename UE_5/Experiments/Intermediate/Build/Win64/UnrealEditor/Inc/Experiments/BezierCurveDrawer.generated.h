@@ -14,8 +14,16 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define EXPERIMENTS_BezierCurveDrawer_generated_h
 
 #define FID_Experiments_Source_Experiments_Public_BezierCurveDrawer_h_12_SPARSE_DATA
-#define FID_Experiments_Source_Experiments_Public_BezierCurveDrawer_h_12_RPC_WRAPPERS
-#define FID_Experiments_Source_Experiments_Public_BezierCurveDrawer_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Experiments_Source_Experiments_Public_BezierCurveDrawer_h_12_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execPreviewCurve);
+
+
+#define FID_Experiments_Source_Experiments_Public_BezierCurveDrawer_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execPreviewCurve);
+
+
 #define FID_Experiments_Source_Experiments_Public_BezierCurveDrawer_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesABezierCurveDrawer(); \

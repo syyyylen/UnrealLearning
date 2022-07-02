@@ -21,6 +21,13 @@ protected:
 
 	void DrawCurve(float t);
 
+	void DrawReady();
+
+public :
+
+	UFUNCTION(BlueprintCallable, CallInEditor)
+	void PreviewCurve();
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
@@ -30,16 +37,27 @@ public:
 	float m_tValue;
 
 	UPROPERTY(EditAnywhere)
+	int m_previewPrecisionCount;
+
+	UPROPERTY(EditAnywhere)
 	FVector m_start;
+
+	FVector m_startRelative;
 
 	UPROPERTY(EditAnywhere)
 	FVector m_end;
 
+	FVector m_endRelative;
+
 	UPROPERTY(EditAnywhere)
 	FVector m_ctrlPt1;
 
+	FVector m_ctrlPt1Relative;
+
 	UPROPERTY(EditAnywhere)
 	FVector m_ctrlPt2;
+
+	FVector m_ctrlPt2Relative;
 
 	UPROPERTY(EditAnywhere)
 	float m_drawDuration;

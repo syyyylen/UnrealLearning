@@ -24,25 +24,31 @@ void ABezierCurveDrawer::BeginPlay()
 	m_start = GetActorLocation() + m_start;
 	m_end = GetActorLocation() + m_end;
 	m_ctrlPt1 = GetActorLocation() + m_ctrlPt1;
+	m_ctrlPt2 = GetActorLocation() + m_ctrlPt2;
 
-	DrawDebugPoint(GetWorld(), m_start, 30, FColor::Green, true);
+	DrawDebugPoint(GetWorld(), m_start, 25, FColor::Green, true);
 	DrawDebugPoint(GetWorld(), m_ctrlPt1, 30, FColor::Yellow, true);
-	DrawDebugPoint(GetWorld(), m_end, 30, FColor::Red, true);
+	DrawDebugPoint(GetWorld(), m_ctrlPt2, 30, FColor::Yellow, true);
+	DrawDebugPoint(GetWorld(), m_end, 25, FColor::Red, true);
 
 	DrawDebugLine(GetWorld(), m_start, m_ctrlPt1, FColor::Blue, true, -1, 0, 5);
-	DrawDebugLine(GetWorld(), m_ctrlPt1, m_end, FColor::Blue, true, -1, 0, 5);
+	DrawDebugLine(GetWorld(), m_ctrlPt1, m_ctrlPt2, FColor::Blue, true, -1, 0, 5);
+	DrawDebugLine(GetWorld(), m_ctrlPt2, m_end, FColor::Blue, true, -1, 0, 5);
 }
 
 void ABezierCurveDrawer::DrawCurve(float t)
 {
-	if(m_canDisplay && t > 1.0f) GEngine->AddOnScreenDebugMessage(-1, 150.f, FColor::Cyan, FString::Printf(TEXT("T VALUE HIGHER THAN 1")));
-
 	FVector pos1 = FMath::Lerp(m_start, m_ctrlPt1, t);
-	FVector pos2 = FMath::Lerp(m_ctrlPt1, m_end, t);
+	FVector pos2 = FMath::Lerp(m_ctrlPt1, m_ctrlPt2, t);
+	FVector pos3 = FMath::Lerp(m_ctrlPt2, m_end, t);
+	FVector pos4 = FMath::Lerp(pos1, pos2, t);
+	FVector pos5 = FMath::Lerp(pos2, pos3, t);
 
-	DrawDebugLine(GetWorld(), pos1, pos2, FColor::Green, false, -1, 0, 5);
+	DrawDebugLine(GetWorld(), pos1, pos2, FColor::Green, false, -1, 0, 3);
+	DrawDebugLine(GetWorld(), pos2, pos3, FColor::Green, false, -1, 0, 3);
+	DrawDebugLine(GetWorld(), pos4, pos5, FColor::Magenta, false, -1, 0, 4);
 
-	FVector posCurve = FMath::Lerp(pos1, pos2, t);
+	FVector posCurve = FMath::Lerp(pos4, pos5, t);
 
 	DrawDebugPoint(GetWorld(), posCurve, 10, FColor::Red, true);
 }
@@ -52,8 +58,8 @@ void ABezierCurveDrawer::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	m_tValue += DeltaTime;
 	float t = m_tValue * 1.0f / m_drawDuration;
+
 	if(m_canDisplay) DrawCurve(t);
 
 	if (m_canDisplay && m_tValue > m_drawDuration) {
@@ -62,4 +68,6 @@ void ABezierCurveDrawer::Tick(float DeltaTime)
 
 		m_canDisplay = false;
 	}
+
+	m_tValue += DeltaTime;
 }

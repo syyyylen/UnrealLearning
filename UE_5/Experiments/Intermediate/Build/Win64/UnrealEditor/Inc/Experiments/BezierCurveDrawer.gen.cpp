@@ -42,9 +42,9 @@ void EmptyLinkFunctionForGeneratedCodeBezierCurveDrawer() {}
 #endif
 		static const UECodeGen_Private::FStructPropertyParams NewProp_m_ctrlPt1;
 #if WITH_METADATA
-		static const UECodeGen_Private::FMetaDataPairParam NewProp_m_tValue_MetaData[];
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_m_ctrlPt2_MetaData[];
 #endif
-		static const UECodeGen_Private::FFloatPropertyParams NewProp_m_tValue;
+		static const UECodeGen_Private::FStructPropertyParams NewProp_m_ctrlPt2;
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_m_drawDuration_MetaData[];
 #endif
@@ -85,12 +85,12 @@ void EmptyLinkFunctionForGeneratedCodeBezierCurveDrawer() {}
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_ABezierCurveDrawer_Statics::NewProp_m_ctrlPt1 = { "m_ctrlPt1", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABezierCurveDrawer, m_ctrlPt1), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UClass_ABezierCurveDrawer_Statics::NewProp_m_ctrlPt1_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABezierCurveDrawer_Statics::NewProp_m_ctrlPt1_MetaData)) };
 #if WITH_METADATA
-	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABezierCurveDrawer_Statics::NewProp_m_tValue_MetaData[] = {
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABezierCurveDrawer_Statics::NewProp_m_ctrlPt2_MetaData[] = {
 		{ "Category", "BezierCurveDrawer" },
 		{ "ModuleRelativePath", "Public/BezierCurveDrawer.h" },
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ABezierCurveDrawer_Statics::NewProp_m_tValue = { "m_tValue", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABezierCurveDrawer, m_tValue), METADATA_PARAMS(Z_Construct_UClass_ABezierCurveDrawer_Statics::NewProp_m_tValue_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABezierCurveDrawer_Statics::NewProp_m_tValue_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_ABezierCurveDrawer_Statics::NewProp_m_ctrlPt2 = { "m_ctrlPt2", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABezierCurveDrawer, m_ctrlPt2), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UClass_ABezierCurveDrawer_Statics::NewProp_m_ctrlPt2_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABezierCurveDrawer_Statics::NewProp_m_ctrlPt2_MetaData)) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABezierCurveDrawer_Statics::NewProp_m_drawDuration_MetaData[] = {
 		{ "Category", "BezierCurveDrawer" },
@@ -102,7 +102,7 @@ void EmptyLinkFunctionForGeneratedCodeBezierCurveDrawer() {}
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABezierCurveDrawer_Statics::NewProp_m_start,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABezierCurveDrawer_Statics::NewProp_m_end,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABezierCurveDrawer_Statics::NewProp_m_ctrlPt1,
-		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABezierCurveDrawer_Statics::NewProp_m_tValue,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABezierCurveDrawer_Statics::NewProp_m_ctrlPt2,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABezierCurveDrawer_Statics::NewProp_m_drawDuration,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ABezierCurveDrawer_Statics::StaticCppClassTypeInfo = {
@@ -141,9 +141,9 @@ void EmptyLinkFunctionForGeneratedCodeBezierCurveDrawer() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Experiments_Source_Experiments_Public_BezierCurveDrawer_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_ABezierCurveDrawer, ABezierCurveDrawer::StaticClass, TEXT("ABezierCurveDrawer"), &Z_Registration_Info_UClass_ABezierCurveDrawer, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ABezierCurveDrawer), 729306300U) },
+		{ Z_Construct_UClass_ABezierCurveDrawer, ABezierCurveDrawer::StaticClass, TEXT("ABezierCurveDrawer"), &Z_Registration_Info_UClass_ABezierCurveDrawer, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ABezierCurveDrawer), 442363965U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Experiments_Source_Experiments_Public_BezierCurveDrawer_h_3479375851(TEXT("/Script/Experiments"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Experiments_Source_Experiments_Public_BezierCurveDrawer_h_604341172(TEXT("/Script/Experiments"),
 		Z_CompiledInDeferFile_FID_Experiments_Source_Experiments_Public_BezierCurveDrawer_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Experiments_Source_Experiments_Public_BezierCurveDrawer_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

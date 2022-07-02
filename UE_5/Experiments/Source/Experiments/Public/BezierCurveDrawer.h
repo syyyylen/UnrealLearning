@@ -27,6 +27,8 @@ public:
 
 	bool m_canDisplay;
 
+	float m_tValue;
+
 	UPROPERTY(EditAnywhere)
 	FVector m_start;
 
@@ -37,7 +39,7 @@ public:
 	FVector m_ctrlPt1;
 
 	UPROPERTY(EditAnywhere)
-	float m_tValue;
+	FVector m_ctrlPt2;
 
 	UPROPERTY(EditAnywhere)
 	float m_drawDuration;

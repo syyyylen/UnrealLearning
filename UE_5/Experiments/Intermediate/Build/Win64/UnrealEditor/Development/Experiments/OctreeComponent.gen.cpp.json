@@ -1,0 +1,19 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "d:\\mais_oui_mais_pingback\\unreallearning\\ue_5\\experiments\\intermediate\\build\\win64\\unrealeditor\\inc\\experiments\\octreecomponent.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\mais_oui_mais_pingback\\unreallearning\\ue_5\\experiments\\intermediate\\build\\win64\\experimentseditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "d:\\mais_oui_mais_pingback\\unreallearning\\ue_5\\experiments\\intermediate\\build\\win64\\unrealeditor\\development\\experiments\\definitions.experiments.h",
+            "d:\\mais_oui_mais_pingback\\unreallearning\\ue_5\\experiments\\source\\experiments\\public\\octreecomponent.h",
+            "d:\\mais_oui_mais_pingback\\epic\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\components\\boxcomponent.h",
+            "d:\\mais_oui_mais_pingback\\epic\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\components\\shapecomponent.h",
+            "d:\\mais_oui_mais_pingback\\epic\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\shapecomponent.generated.h",
+            "d:\\mais_oui_mais_pingback\\epic\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\boxcomponent.generated.h",
+            "d:\\mais_oui_mais_pingback\\unreallearning\\ue_5\\experiments\\intermediate\\build\\win64\\unrealeditor\\inc\\experiments\\octreecomponent.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -65,7 +65,13 @@
     <ClCompile Include="..\..\Source\Experiments\Private\BezierCurveDrawer.cpp">
       <Filter>Source\Experiments\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\Experiments\Private\ComboCondition.cpp">
+      <Filter>Source\Experiments\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\Experiments\Private\Debug_Things_Actor.cpp">
+      <Filter>Source\Experiments\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Experiments\Private\ElineComboTreeComponent.cpp">
       <Filter>Source\Experiments\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\Experiments\Private\TestActor.cpp">
@@ -77,7 +83,19 @@
     <ClInclude Include="..\..\Source\Experiments\Public\BezierCurveDrawer.h">
       <Filter>Source\Experiments\Public</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\Experiments\Public\ComboCondition.h">
+      <Filter>Source\Experiments\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Experiments\Public\ComboInputs.h">
+      <Filter>Source\Experiments\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Experiments\Public\ComboSegment.h">
+      <Filter>Source\Experiments\Public</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Source\Experiments\Public\Debug_Things_Actor.h">
+      <Filter>Source\Experiments\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Experiments\Public\ElineComboTreeComponent.h">
       <Filter>Source\Experiments\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\Experiments\Public\TestActor.h">

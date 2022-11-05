@@ -23,6 +23,8 @@ protected:
 
 	void DrawReady();
 
+	void SetAnchorsValues();
+
 public :
 
 	UFUNCTION(BlueprintCallable, CallInEditor)

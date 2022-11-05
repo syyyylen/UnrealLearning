@@ -1,0 +1,22 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "d:\\mais_oui_mais_pingback\\unreallearning\\ue_5\\experiments\\intermediate\\build\\win64\\unrealeditor\\inc\\experiments\\combosegment.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\mais_oui_mais_pingback\\unreallearning\\ue_5\\experiments\\intermediate\\build\\win64\\experimentseditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "d:\\mais_oui_mais_pingback\\unreallearning\\ue_5\\experiments\\intermediate\\build\\win64\\unrealeditor\\development\\experiments\\definitions.experiments.h",
+            "d:\\mais_oui_mais_pingback\\unreallearning\\ue_5\\experiments\\source\\experiments\\public\\combosegment.h",
+            "d:\\mais_oui_mais_pingback\\unreallearning\\ue_5\\experiments\\source\\experiments\\public\\combocondition.h",
+            "d:\\mais_oui_mais_pingback\\unreallearning\\ue_5\\experiments\\intermediate\\build\\win64\\unrealeditor\\inc\\experiments\\combocondition.generated.h",
+            "d:\\mais_oui_mais_pingback\\unreallearning\\ue_5\\experiments\\source\\experiments\\public\\comboinputs.h",
+            "d:\\mais_oui_mais_pingback\\unreallearning\\ue_5\\experiments\\intermediate\\build\\win64\\unrealeditor\\inc\\experiments\\comboinputs.generated.h",
+            "d:\\mais_oui_mais_pingback\\epic\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\engine\\datatable.h",
+            "d:\\mais_oui_mais_pingback\\epic\\ue_5.0\\engine\\source\\runtime\\engine\\public\\datatableutils.h",
+            "d:\\mais_oui_mais_pingback\\epic\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\datatable.generated.h",
+            "d:\\mais_oui_mais_pingback\\unreallearning\\ue_5\\experiments\\intermediate\\build\\win64\\unrealeditor\\inc\\experiments\\combosegment.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

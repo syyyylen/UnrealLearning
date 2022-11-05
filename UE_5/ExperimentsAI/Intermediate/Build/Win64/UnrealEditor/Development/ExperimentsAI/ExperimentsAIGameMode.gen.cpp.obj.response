@@ -1,8 +1,10 @@
 D:\mais_oui_mais_pingback\UnrealLearning\UE_5\ExperimentsAI\Intermediate\Build\Win64\UnrealEditor\Inc\ExperimentsAI\ExperimentsAIGameMode.gen.cpp
 /I .
-/I D:\mais_oui_mais_pingback\UnrealLearning\UE_5\ExperimentsAI\Intermediate\Build\Win64\UnrealEditor\Inc\ExperimentsAI
-/I D:\mais_oui_mais_pingback\UnrealLearning\UE_5\ExperimentsAI\Source
+/I ..\Intermediate\Build\Win64\UnrealEditor\Inc\AIModule
 /I Runtime
+/I Runtime\NavigationSystem\Public
+/I Runtime\AIModule\Public
+/I Runtime\AIModule\Classes
 /I Runtime\TraceLog\Public
 /I Runtime\Core\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\CoreUObject
@@ -187,7 +189,6 @@ D:\mais_oui_mais_pingback\UnrealLearning\UE_5\ExperimentsAI\Intermediate\Build\W
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\PropertyPath
 /I Runtime\PropertyPath\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\NavigationSystem
-/I Runtime\NavigationSystem\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\GeometryCollectionEngine
 /I Runtime\Experimental\GeometryCollectionEngine\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\MaterialShaderQualitySettings
@@ -246,13 +247,12 @@ D:\mais_oui_mais_pingback\UnrealLearning\UE_5\ExperimentsAI\Intermediate\Build\W
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\GameplayTasks
 /I Runtime\GameplayTasks\Classes
 /I Runtime\GameplayTasks\Public
-/I ..\Intermediate\Build\Win64\UnrealEditor\Inc\AIModule
-/I Runtime\AIModule\Public
-/I Runtime\AIModule\Classes
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\ClothingSystemRuntimeInterface
 /I Runtime\ClothingSystemRuntimeInterface\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\AnimationDataController
 /I Developer\AnimationDataController\Public
+/I D:\mais_oui_mais_pingback\UnrealLearning\UE_5\ExperimentsAI\Intermediate\Build\Win64\UnrealEditor\Inc\ExperimentsAI
+/I D:\mais_oui_mais_pingback\UnrealLearning\UE_5\ExperimentsAI\Source
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\AugmentedReality
 /I Runtime\AugmentedReality\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\MRMesh

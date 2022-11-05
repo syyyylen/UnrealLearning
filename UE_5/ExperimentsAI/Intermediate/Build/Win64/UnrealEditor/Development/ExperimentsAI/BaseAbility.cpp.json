@@ -1,0 +1,15 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "d:\\mais_oui_mais_pingback\\unreallearning\\ue_5\\experimentsai\\source\\experimentsai\\baseability.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\mais_oui_mais_pingback\\unreallearning\\ue_5\\experimentsai\\intermediate\\build\\win64\\experimentsaieditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "d:\\mais_oui_mais_pingback\\unreallearning\\ue_5\\experimentsai\\intermediate\\build\\win64\\unrealeditor\\development\\experimentsai\\definitions.experimentsai.h",
+            "d:\\mais_oui_mais_pingback\\unreallearning\\ue_5\\experimentsai\\source\\experimentsai\\baseability.h",
+            "d:\\mais_oui_mais_pingback\\unreallearning\\ue_5\\experimentsai\\intermediate\\build\\win64\\unrealeditor\\inc\\experimentsai\\baseability.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

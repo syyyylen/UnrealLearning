@@ -1439,6 +1439,18 @@
     <Filter Include="Source\ExperimentsAI">
       <UniqueIdentifier>{97A6E5DB-C3FE-3848-977E-AD59F7DFFA39}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\ExperimentsAI\AdvancedAIController.cpp">
+      <Filter>Source\ExperimentsAI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ExperimentsAI\AdvancedAIController.h">
+      <Filter>Source\ExperimentsAI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ExperimentsAI\BaseAbility.cpp">
+      <Filter>Source\ExperimentsAI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ExperimentsAI\BaseAbility.h">
+      <Filter>Source\ExperimentsAI</Filter>
+    </ClInclude>
     <None Include="..\..\Source\ExperimentsAI\ExperimentsAI.Build.cs">
       <Filter>Source\ExperimentsAI</Filter>
     </None>

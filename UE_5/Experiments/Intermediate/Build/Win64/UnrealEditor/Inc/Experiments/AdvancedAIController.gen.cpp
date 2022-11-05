@@ -1,0 +1,88 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+#include "UObject/GeneratedCppIncludes.h"
+#include "Experiments/AI/AdvancedAIController.h"
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+void EmptyLinkFunctionForGeneratedCodeAdvancedAIController() {}
+// Cross Module References
+	EXPERIMENTS_API UClass* Z_Construct_UClass_AAdvancedAIController_NoRegister();
+	EXPERIMENTS_API UClass* Z_Construct_UClass_AAdvancedAIController();
+	AIMODULE_API UClass* Z_Construct_UClass_AAIController();
+	UPackage* Z_Construct_UPackage__Script_Experiments();
+// End Cross Module References
+	void AAdvancedAIController::StaticRegisterNativesAAdvancedAIController()
+	{
+	}
+	IMPLEMENT_CLASS_NO_AUTO_REGISTRATION(AAdvancedAIController);
+	UClass* Z_Construct_UClass_AAdvancedAIController_NoRegister()
+	{
+		return AAdvancedAIController::StaticClass();
+	}
+	struct Z_Construct_UClass_AAdvancedAIController_Statics
+	{
+		static UObject* (*const DependentSingletons[])();
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
+#endif
+		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
+		static const UECodeGen_Private::FClassParams ClassParams;
+	};
+	UObject* (*const Z_Construct_UClass_AAdvancedAIController_Statics::DependentSingletons[])() = {
+		(UObject* (*)())Z_Construct_UClass_AAIController,
+		(UObject* (*)())Z_Construct_UPackage__Script_Experiments,
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAdvancedAIController_Statics::Class_MetaDataParams[] = {
+		{ "Comment", "/**\n * \n */" },
+		{ "HideCategories", "Collision Rendering Transformation" },
+		{ "IncludePath", "AI/AdvancedAIController.h" },
+		{ "ModuleRelativePath", "AI/AdvancedAIController.h" },
+	};
+#endif
+	const FCppClassTypeInfoStatic Z_Construct_UClass_AAdvancedAIController_Statics::StaticCppClassTypeInfo = {
+		TCppClassTypeTraits<AAdvancedAIController>::IsAbstract,
+	};
+	const UECodeGen_Private::FClassParams Z_Construct_UClass_AAdvancedAIController_Statics::ClassParams = {
+		&AAdvancedAIController::StaticClass,
+		"Engine",
+		&StaticCppClassTypeInfo,
+		DependentSingletons,
+		nullptr,
+		nullptr,
+		nullptr,
+		UE_ARRAY_COUNT(DependentSingletons),
+		0,
+		0,
+		0,
+		0x009002A4u,
+		METADATA_PARAMS(Z_Construct_UClass_AAdvancedAIController_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_AAdvancedAIController_Statics::Class_MetaDataParams))
+	};
+	UClass* Z_Construct_UClass_AAdvancedAIController()
+	{
+		if (!Z_Registration_Info_UClass_AAdvancedAIController.OuterSingleton)
+		{
+			UECodeGen_Private::ConstructUClass(Z_Registration_Info_UClass_AAdvancedAIController.OuterSingleton, Z_Construct_UClass_AAdvancedAIController_Statics::ClassParams);
+		}
+		return Z_Registration_Info_UClass_AAdvancedAIController.OuterSingleton;
+	}
+	template<> EXPERIMENTS_API UClass* StaticClass<AAdvancedAIController>()
+	{
+		return AAdvancedAIController::StaticClass();
+	}
+	DEFINE_VTABLE_PTR_HELPER_CTOR(AAdvancedAIController);
+	struct Z_CompiledInDeferFile_FID_Experiments_Source_Experiments_AI_AdvancedAIController_h_Statics
+	{
+		static const FClassRegisterCompiledInInfo ClassInfo[];
+	};
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Experiments_Source_Experiments_AI_AdvancedAIController_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_AAdvancedAIController, AAdvancedAIController::StaticClass, TEXT("AAdvancedAIController"), &Z_Registration_Info_UClass_AAdvancedAIController, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AAdvancedAIController), 3089848853U) },
+	};
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Experiments_Source_Experiments_AI_AdvancedAIController_h_177487849(TEXT("/Script/Experiments"),
+		Z_CompiledInDeferFile_FID_Experiments_Source_Experiments_AI_AdvancedAIController_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Experiments_Source_Experiments_AI_AdvancedAIController_h_Statics::ClassInfo),
+		nullptr, 0,
+		nullptr, 0);
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

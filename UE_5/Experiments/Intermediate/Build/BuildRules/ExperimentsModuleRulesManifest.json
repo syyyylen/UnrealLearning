@@ -1,6 +1,12 @@
 {
 	"SourceFiles": [
 		"D:\\mais_oui_mais_pingback\\UnrealLearning\\UE_5\\Experiments\\Source\\Experiments\\Experiments.Build.cs",
+		"D:\\mais_oui_mais_pingback\\UnrealLearning\\UE_5\\Experiments\\Plugins\\Developer\\RiderLink\\Source\\RD\\RD.Build.cs",
+		"D:\\mais_oui_mais_pingback\\UnrealLearning\\UE_5\\Experiments\\Plugins\\Developer\\RiderLink\\Source\\RiderBlueprint\\RiderBlueprint.Build.cs",
+		"D:\\mais_oui_mais_pingback\\UnrealLearning\\UE_5\\Experiments\\Plugins\\Developer\\RiderLink\\Source\\RiderGameControl\\RiderGameControl.Build.cs",
+		"D:\\mais_oui_mais_pingback\\UnrealLearning\\UE_5\\Experiments\\Plugins\\Developer\\RiderLink\\Source\\RiderLink\\RiderLink.Build.cs",
+		"D:\\mais_oui_mais_pingback\\UnrealLearning\\UE_5\\Experiments\\Plugins\\Developer\\RiderLink\\Source\\RiderLogging\\RiderLogging.Build.cs",
+		"D:\\mais_oui_mais_pingback\\UnrealLearning\\UE_5\\Experiments\\Plugins\\Developer\\RiderLink\\Source\\RiderShaderInfo\\RiderShaderInfo.Build.cs",
 		"D:\\mais_oui_mais_pingback\\UnrealLearning\\UE_5\\Experiments\\Source\\Experiments.Target.cs",
 		"D:\\mais_oui_mais_pingback\\UnrealLearning\\UE_5\\Experiments\\Source\\ExperimentsEditor.Target.cs"
 	],

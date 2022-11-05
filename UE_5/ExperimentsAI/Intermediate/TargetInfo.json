@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "ExperimentsAI",
+			"Path": "D:\\mais_oui_mais_pingback\\UnrealLearning\\UE_5\\ExperimentsAI\\Source\\ExperimentsAI.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "ExperimentsAIEditor",
+			"Path": "D:\\mais_oui_mais_pingback\\UnrealLearning\\UE_5\\ExperimentsAI\\Source\\ExperimentsAIEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "d:\\mais_oui_mais_pingback\\unreallearning\\ue_5\\experimentsai\\source\\experimentsai\\experimentsaigamemode.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\mais_oui_mais_pingback\\unreallearning\\ue_5\\experimentsai\\intermediate\\build\\win64\\experimentsaieditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "d:\\mais_oui_mais_pingback\\unreallearning\\ue_5\\experimentsai\\intermediate\\build\\win64\\unrealeditor\\development\\experimentsai\\definitions.experimentsai.h",
+            "d:\\mais_oui_mais_pingback\\unreallearning\\ue_5\\experimentsai\\source\\experimentsai\\experimentsaigamemode.h",
+            "d:\\mais_oui_mais_pingback\\epic\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "d:\\mais_oui_mais_pingback\\epic\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "d:\\mais_oui_mais_pingback\\epic\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\serverstatreplicator.generated.h",
+            "d:\\mais_oui_mais_pingback\\epic\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\gamemodebase.generated.h",
+            "d:\\mais_oui_mais_pingback\\unreallearning\\ue_5\\experimentsai\\intermediate\\build\\win64\\unrealeditor\\inc\\experimentsai\\experimentsaigamemode.generated.h",
+            "d:\\mais_oui_mais_pingback\\unreallearning\\ue_5\\experimentsai\\source\\experimentsai\\experimentsaicharacter.h",
+            "d:\\mais_oui_mais_pingback\\epic\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\character.h",
+            "d:\\mais_oui_mais_pingback\\epic\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\charactermovementreplication.h",
+            "d:\\mais_oui_mais_pingback\\epic\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\charactermovementreplication.generated.h",
+            "d:\\mais_oui_mais_pingback\\epic\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\rootmotionsource.h",
+            "d:\\mais_oui_mais_pingback\\epic\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\rootmotionsource.generated.h",
+            "d:\\mais_oui_mais_pingback\\epic\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\character.generated.h",
+            "d:\\mais_oui_mais_pingback\\unreallearning\\ue_5\\experimentsai\\intermediate\\build\\win64\\unrealeditor\\inc\\experimentsai\\experimentsaicharacter.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

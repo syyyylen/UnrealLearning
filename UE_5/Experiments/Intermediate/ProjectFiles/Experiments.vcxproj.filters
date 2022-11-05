@@ -1469,9 +1469,15 @@
     <ClInclude Include="..\..\Source\Experiments\AI\AdvancedAIController.h">
       <Filter>Source\Experiments\AI</Filter>
     </ClInclude>
+    <None Include="..\..\Source\Experiments\AI\AdvancedAIController.h~">
+      <Filter>Source\Experiments\AI</Filter>
+    </None>
     <Filter Include="Source\Experiments\Private">
       <UniqueIdentifier>{9B269C57-D5AE-3D32-B9BE-A49D665F5024}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\Experiments\Private\BaseAbility.cpp">
+      <Filter>Source\Experiments\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\Experiments\Private\BezierCurveDrawer.cpp">
       <Filter>Source\Experiments\Private</Filter>
     </ClCompile>
@@ -1487,6 +1493,9 @@
     <Filter Include="Source\Experiments\Public">
       <UniqueIdentifier>{9563AB5C-5345-3A25-B89E-EBB0E1CE88F2}</UniqueIdentifier>
     </Filter>
+    <ClInclude Include="..\..\Source\Experiments\Public\BaseAbility.h">
+      <Filter>Source\Experiments\Public</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Source\Experiments\Public\BezierCurveDrawer.h">
       <Filter>Source\Experiments\Public</Filter>
     </ClInclude>

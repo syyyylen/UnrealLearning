@@ -3,7 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "AIController.h"
+#include "AIModule/Classes/AIController.h"
 #include "AdvancedAIController.generated.h"
 
 /**

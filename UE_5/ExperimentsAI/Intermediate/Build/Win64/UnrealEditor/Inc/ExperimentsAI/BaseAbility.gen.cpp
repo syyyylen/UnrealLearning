@@ -13,6 +13,7 @@ void EmptyLinkFunctionForGeneratedCodeBaseAbility() {}
 	EXPERIMENTSAI_API UClass* Z_Construct_UClass_UBaseAbility();
 	ENGINE_API UClass* Z_Construct_UClass_UPrimaryDataAsset();
 	UPackage* Z_Construct_UPackage__Script_ExperimentsAI();
+	ENGINE_API UClass* Z_Construct_UClass_UAnimMontage_NoRegister();
 // End Cross Module References
 	void UBaseAbility::StaticRegisterNativesUBaseAbility()
 	{
@@ -28,6 +29,19 @@ void EmptyLinkFunctionForGeneratedCodeBaseAbility() {}
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_AbilityName_MetaData[];
+#endif
+		static const UECodeGen_Private::FTextPropertyParams NewProp_AbilityName;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_Montage_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPtrPropertyParams NewProp_Montage;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_Cooldown_MetaData[];
+#endif
+		static const UECodeGen_Private::FFloatPropertyParams NewProp_Cooldown;
+		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UECodeGen_Private::FClassParams ClassParams;
 	};
@@ -42,6 +56,32 @@ void EmptyLinkFunctionForGeneratedCodeBaseAbility() {}
 		{ "ModuleRelativePath", "BaseAbility.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UBaseAbility_Statics::NewProp_AbilityName_MetaData[] = {
+		{ "Category", "Ability" },
+		{ "ModuleRelativePath", "BaseAbility.h" },
+	};
+#endif
+	const UECodeGen_Private::FTextPropertyParams Z_Construct_UClass_UBaseAbility_Statics::NewProp_AbilityName = { "AbilityName", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Text, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UBaseAbility, AbilityName), METADATA_PARAMS(Z_Construct_UClass_UBaseAbility_Statics::NewProp_AbilityName_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UBaseAbility_Statics::NewProp_AbilityName_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UBaseAbility_Statics::NewProp_Montage_MetaData[] = {
+		{ "Category", "Ability" },
+		{ "ModuleRelativePath", "BaseAbility.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPtrPropertyParams Z_Construct_UClass_UBaseAbility_Statics::NewProp_Montage = { "Montage", nullptr, (EPropertyFlags)0x0014000000000001, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UBaseAbility, Montage), Z_Construct_UClass_UAnimMontage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UBaseAbility_Statics::NewProp_Montage_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UBaseAbility_Statics::NewProp_Montage_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UBaseAbility_Statics::NewProp_Cooldown_MetaData[] = {
+		{ "Category", "Ability" },
+		{ "ModuleRelativePath", "BaseAbility.h" },
+	};
+#endif
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UBaseAbility_Statics::NewProp_Cooldown = { "Cooldown", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UBaseAbility, Cooldown), METADATA_PARAMS(Z_Construct_UClass_UBaseAbility_Statics::NewProp_Cooldown_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UBaseAbility_Statics::NewProp_Cooldown_MetaData)) };
+	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UBaseAbility_Statics::PropPointers[] = {
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UBaseAbility_Statics::NewProp_AbilityName,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UBaseAbility_Statics::NewProp_Montage,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UBaseAbility_Statics::NewProp_Cooldown,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UBaseAbility_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UBaseAbility>::IsAbstract,
 	};
@@ -51,11 +91,11 @@ void EmptyLinkFunctionForGeneratedCodeBaseAbility() {}
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		nullptr,
-		nullptr,
+		Z_Construct_UClass_UBaseAbility_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
 		0,
-		0,
+		UE_ARRAY_COUNT(Z_Construct_UClass_UBaseAbility_Statics::PropPointers),
 		0,
 		0x001000A0u,
 		METADATA_PARAMS(Z_Construct_UClass_UBaseAbility_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_UBaseAbility_Statics::Class_MetaDataParams))
@@ -78,9 +118,9 @@ void EmptyLinkFunctionForGeneratedCodeBaseAbility() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_ExperimentsAI_Source_ExperimentsAI_BaseAbility_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UBaseAbility, UBaseAbility::StaticClass, TEXT("UBaseAbility"), &Z_Registration_Info_UClass_UBaseAbility, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UBaseAbility), 1261938623U) },
+		{ Z_Construct_UClass_UBaseAbility, UBaseAbility::StaticClass, TEXT("UBaseAbility"), &Z_Registration_Info_UClass_UBaseAbility, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UBaseAbility), 3115733059U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_ExperimentsAI_Source_ExperimentsAI_BaseAbility_h_2583056031(TEXT("/Script/ExperimentsAI"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_ExperimentsAI_Source_ExperimentsAI_BaseAbility_h_11152408(TEXT("/Script/ExperimentsAI"),
 		Z_CompiledInDeferFile_FID_ExperimentsAI_Source_ExperimentsAI_BaseAbility_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_ExperimentsAI_Source_ExperimentsAI_BaseAbility_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

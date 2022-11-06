@@ -1,0 +1,23 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "d:\\mais_oui_mais_pingback\\unreallearning\\ue_5\\experimentsai\\intermediate\\build\\win64\\unrealeditor\\inc\\experimentsai\\aipawn.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\mais_oui_mais_pingback\\unreallearning\\ue_5\\experimentsai\\intermediate\\build\\win64\\experimentsaieditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "d:\\mais_oui_mais_pingback\\unreallearning\\ue_5\\experimentsai\\intermediate\\build\\win64\\unrealeditor\\development\\experimentsai\\definitions.experimentsai.h",
+            "d:\\mais_oui_mais_pingback\\unreallearning\\ue_5\\experimentsai\\source\\experimentsai\\aipawn.h",
+            "d:\\mais_oui_mais_pingback\\unreallearning\\ue_5\\experimentsai\\source\\experimentsai\\baseability.h",
+            "d:\\mais_oui_mais_pingback\\unreallearning\\ue_5\\experimentsai\\intermediate\\build\\win64\\unrealeditor\\inc\\experimentsai\\baseability.generated.h",
+            "d:\\mais_oui_mais_pingback\\epic\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\character.h",
+            "d:\\mais_oui_mais_pingback\\epic\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\charactermovementreplication.h",
+            "d:\\mais_oui_mais_pingback\\epic\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\charactermovementreplication.generated.h",
+            "d:\\mais_oui_mais_pingback\\epic\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\rootmotionsource.h",
+            "d:\\mais_oui_mais_pingback\\epic\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\rootmotionsource.generated.h",
+            "d:\\mais_oui_mais_pingback\\epic\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\character.generated.h",
+            "d:\\mais_oui_mais_pingback\\unreallearning\\ue_5\\experimentsai\\intermediate\\build\\win64\\unrealeditor\\inc\\experimentsai\\aipawn.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1445,6 +1445,12 @@
     <ClInclude Include="..\..\Source\ExperimentsAI\AdvancedAIController.h">
       <Filter>Source\ExperimentsAI</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\ExperimentsAI\AIPawn.cpp">
+      <Filter>Source\ExperimentsAI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ExperimentsAI\AIPawn.h">
+      <Filter>Source\ExperimentsAI</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\ExperimentsAI\BaseAbility.cpp">
       <Filter>Source\ExperimentsAI</Filter>
     </ClCompile>

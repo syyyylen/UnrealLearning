@@ -8,15 +8,24 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+struct FColor;
 #ifdef EXPERIMENTSAI_AdvancedAIController_generated_h
 #error "AdvancedAIController.generated.h already included, missing '#pragma once' in AdvancedAIController.h"
 #endif
 #define EXPERIMENTSAI_AdvancedAIController_generated_h
 
-#define FID_ExperimentsAI_Source_ExperimentsAI_AdvancedAIController_h_15_SPARSE_DATA
-#define FID_ExperimentsAI_Source_ExperimentsAI_AdvancedAIController_h_15_RPC_WRAPPERS
-#define FID_ExperimentsAI_Source_ExperimentsAI_AdvancedAIController_h_15_RPC_WRAPPERS_NO_PURE_DECLS
-#define FID_ExperimentsAI_Source_ExperimentsAI_AdvancedAIController_h_15_INCLASS_NO_PURE_DECLS \
+#define FID_ExperimentsAI_Source_ExperimentsAI_AdvancedAIController_h_16_SPARSE_DATA
+#define FID_ExperimentsAI_Source_ExperimentsAI_AdvancedAIController_h_16_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execDebugMsg);
+
+
+#define FID_ExperimentsAI_Source_ExperimentsAI_AdvancedAIController_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execDebugMsg);
+
+
+#define FID_ExperimentsAI_Source_ExperimentsAI_AdvancedAIController_h_16_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAAdvancedAIController(); \
 	friend struct Z_Construct_UClass_AAdvancedAIController_Statics; \
@@ -25,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(AAdvancedAIController)
 
 
-#define FID_ExperimentsAI_Source_ExperimentsAI_AdvancedAIController_h_15_INCLASS \
+#define FID_ExperimentsAI_Source_ExperimentsAI_AdvancedAIController_h_16_INCLASS \
 private: \
 	static void StaticRegisterNativesAAdvancedAIController(); \
 	friend struct Z_Construct_UClass_AAdvancedAIController_Statics; \
@@ -34,7 +43,7 @@ public: \
 	DECLARE_SERIALIZER(AAdvancedAIController)
 
 
-#define FID_ExperimentsAI_Source_ExperimentsAI_AdvancedAIController_h_15_STANDARD_CONSTRUCTORS \
+#define FID_ExperimentsAI_Source_ExperimentsAI_AdvancedAIController_h_16_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AAdvancedAIController(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AAdvancedAIController) \
@@ -47,7 +56,7 @@ private: \
 public:
 
 
-#define FID_ExperimentsAI_Source_ExperimentsAI_AdvancedAIController_h_15_ENHANCED_CONSTRUCTORS \
+#define FID_ExperimentsAI_Source_ExperimentsAI_AdvancedAIController_h_16_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AAdvancedAIController(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -60,25 +69,25 @@ public: \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AAdvancedAIController)
 
 
-#define FID_ExperimentsAI_Source_ExperimentsAI_AdvancedAIController_h_12_PROLOG
-#define FID_ExperimentsAI_Source_ExperimentsAI_AdvancedAIController_h_15_GENERATED_BODY_LEGACY \
+#define FID_ExperimentsAI_Source_ExperimentsAI_AdvancedAIController_h_13_PROLOG
+#define FID_ExperimentsAI_Source_ExperimentsAI_AdvancedAIController_h_16_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_ExperimentsAI_Source_ExperimentsAI_AdvancedAIController_h_15_SPARSE_DATA \
-	FID_ExperimentsAI_Source_ExperimentsAI_AdvancedAIController_h_15_RPC_WRAPPERS \
-	FID_ExperimentsAI_Source_ExperimentsAI_AdvancedAIController_h_15_INCLASS \
-	FID_ExperimentsAI_Source_ExperimentsAI_AdvancedAIController_h_15_STANDARD_CONSTRUCTORS \
+	FID_ExperimentsAI_Source_ExperimentsAI_AdvancedAIController_h_16_SPARSE_DATA \
+	FID_ExperimentsAI_Source_ExperimentsAI_AdvancedAIController_h_16_RPC_WRAPPERS \
+	FID_ExperimentsAI_Source_ExperimentsAI_AdvancedAIController_h_16_INCLASS \
+	FID_ExperimentsAI_Source_ExperimentsAI_AdvancedAIController_h_16_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define FID_ExperimentsAI_Source_ExperimentsAI_AdvancedAIController_h_15_GENERATED_BODY \
+#define FID_ExperimentsAI_Source_ExperimentsAI_AdvancedAIController_h_16_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_ExperimentsAI_Source_ExperimentsAI_AdvancedAIController_h_15_SPARSE_DATA \
-	FID_ExperimentsAI_Source_ExperimentsAI_AdvancedAIController_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_ExperimentsAI_Source_ExperimentsAI_AdvancedAIController_h_15_INCLASS_NO_PURE_DECLS \
-	FID_ExperimentsAI_Source_ExperimentsAI_AdvancedAIController_h_15_ENHANCED_CONSTRUCTORS \
+	FID_ExperimentsAI_Source_ExperimentsAI_AdvancedAIController_h_16_SPARSE_DATA \
+	FID_ExperimentsAI_Source_ExperimentsAI_AdvancedAIController_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_ExperimentsAI_Source_ExperimentsAI_AdvancedAIController_h_16_INCLASS_NO_PURE_DECLS \
+	FID_ExperimentsAI_Source_ExperimentsAI_AdvancedAIController_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

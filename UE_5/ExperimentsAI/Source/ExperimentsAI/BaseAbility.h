@@ -13,5 +13,15 @@ UCLASS()
 class EXPERIMENTSAI_API UBaseAbility : public UPrimaryDataAsset
 {
 	GENERATED_BODY()
-	
+
+public:
+
+	UPROPERTY(EditAnywhere, Category="Ability")
+	FText AbilityName;
+
+	UPROPERTY(EditAnywhere, Category="Ability")
+	TObjectPtr<UAnimMontage> Montage;
+
+	UPROPERTY(EditAnywhere, Category="Ability")
+	float Cooldown;
 };

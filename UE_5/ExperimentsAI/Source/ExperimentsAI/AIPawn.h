@@ -16,14 +16,22 @@ public:
 	// Sets default values for this character's properties
 	AAIPawn();
 
-	UPROPERTY(BlueprintReadWrite)
-	TMap<int32, UBaseAbility*> Abilities;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="AI Pawn")
+	TMap<int32, TObjectPtr<UBaseAbility>> Abilities;
 
 	UPROPERTY(BlueprintReadOnly)
 	USkeletalMeshComponent* SkeletalMeshComponent;
 
 	UFUNCTION(BlueprintCallable)
 	bool PlayMontage(UAnimMontage* MontageToPlay);
+
+	FOnMontageEnded MontageEndDelegate;
+	
+	UFUNCTION()
+	void OnMontageEnded();
+
+	UFUNCTION(BlueprintCallable)
+	UBaseAbility* GetAbility(int32 AbilityID);
 	
 protected:
 	// Called when the game starts or when spawned

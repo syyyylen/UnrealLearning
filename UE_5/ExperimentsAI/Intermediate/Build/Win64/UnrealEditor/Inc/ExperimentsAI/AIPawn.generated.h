@@ -8,6 +8,7 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UBaseAbility;
 class UAnimMontage;
 #ifdef EXPERIMENTSAI_AIPawn_generated_h
 #error "AIPawn.generated.h already included, missing '#pragma once' in AIPawn.h"
@@ -17,11 +18,15 @@ class UAnimMontage;
 #define FID_ExperimentsAI_Source_ExperimentsAI_AIPawn_h_13_SPARSE_DATA
 #define FID_ExperimentsAI_Source_ExperimentsAI_AIPawn_h_13_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execGetAbility); \
+	DECLARE_FUNCTION(execOnMontageEnded); \
 	DECLARE_FUNCTION(execPlayMontage);
 
 
 #define FID_ExperimentsAI_Source_ExperimentsAI_AIPawn_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execGetAbility); \
+	DECLARE_FUNCTION(execOnMontageEnded); \
 	DECLARE_FUNCTION(execPlayMontage);
 
 

@@ -16,12 +16,21 @@ class EXPERIMENTSAI_API UBaseAbility : public UPrimaryDataAsset
 
 public:
 
-	UPROPERTY(EditAnywhere, Category="Ability")
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category="Ability")
 	FText AbilityName;
 
-	UPROPERTY(EditAnywhere, Category="Ability")
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category="Ability")
 	TObjectPtr<UAnimMontage> Montage;
 
-	UPROPERTY(EditAnywhere, Category="Ability")
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category="Ability")
 	float Cooldown;
+
+	UPROPERTY(BlueprintReadOnly, Category="Ability Internal")
+	float CooldownTimeRemaining;
+	
+	UFUNCTION(BlueprintCallable)
+	bool OnCooldown();
+
+	UFUNCTION(BlueprintCallable)
+	void StartCooldown();
 };
